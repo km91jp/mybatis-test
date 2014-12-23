@@ -17,5 +17,3 @@ execute [MyBatis3]#1[BATCH] [elapsed time: 6477, 5446, 5857] Average:5926.0
 execute [MyBatis3]#2[SIMPLE] [elapsed time: 5377, 5250, 5262] Average:5296.0
 execute [MyBatis3]#2[REUSE] [elapsed time: 3315, 3147, 3120] Average:3194.0
 execute [MyBatis3]#2[BATCH] [elapsed time: 1670, 1624, 1537] Average:1610.0
-
-REUSEが良さそう？

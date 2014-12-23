@@ -1,3 +1,32 @@
+CREATE TABLE mybatis_test
+(
+  id integer NOT NULL, -- id.
+  name text, -- name.
+  create_date timestamp with time zone,
+  mod_date timestamp with time zone, -- date of modification
+  CONSTRAINT pkey PRIMARY KEY (id )
+);
+
+CREATE TABLE blog
+(
+  id integer NOT NULL,
+  title text,
+  author text,
+  CONSTRAINT pkey_id PRIMARY KEY (id )
+);
+
+CREATE TABLE post
+(
+  id integer NOT NULL,
+  title text,
+  text text,
+  blog_id integer,
+  CONSTRAINT pkey_post_id PRIMARY KEY (id ),
+  CONSTRAINT fkey_blog_id FOREIGN KEY (blog_id)
+      REFERENCES blog (id) MATCH SIMPLE
+      ON UPDATE NO ACTION ON DELETE NO ACTION
+);
+
 insert into blog values (1, 'blog1', 'author1');
 insert into blog values (2, 'blog2', 'author2');
 insert into blog values (3, 'blog3', 'author3');
