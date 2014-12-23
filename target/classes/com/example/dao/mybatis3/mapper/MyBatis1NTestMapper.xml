@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.dao.mybatis3.mapper.MyBatis1NTestMapper">
+
+	<resultMap type="com.example.dto.Blog" id="blogMap">
+		<result property="id" column="id" javaType="int" />
+		<result property="title" column="title" javaType="java.lang.String" />
+		<result property="author" column="author" javaType="java.lang.String" />
+		<collection property="posts" ofType="com.example.dto.Post" resultMap="postMap"/>
+	</resultMap>
+	
+	<resultMap type="com.example.dto.Post" id="postMap">
+		<id column="blog_id"/>
+		<result property="id" column="pid" javaType="int"/>
+		<result property="title" column="ptitle" javaType="java.lang.String" />
+		<result property="text" column="ptext" javaType="java.lang.String" />
+	</resultMap>
+
+	<select id="selectAll" resultMap="blogMap">
+    SELECT
+     b.id as id
+     ,b.title as title
+     ,b.author as author
+     ,p.id as pid
+     ,p.title as ptitle
+     ,p.text as ptext
+    FROM
+     BLOG b LEFT OUTER JOIN POST p ON b.id = p.blog_id
+<!-- 
+		SELECT * FROM BLOG
+-->
+	</select>
+	
+	<select id="getPost" resultMap="postMap">
+		SELECT * FROM POST WHERE BLOG_ID=#{id}
+	</select>
+	
+
+</mapper>

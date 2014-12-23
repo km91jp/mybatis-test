@@ -1,0 +1,145 @@
+[2014/12/22 22:00:13] [PreparedStatement     ] [DEBUG] {pstm-100001} Executing Statement:        SELECT      b.id as id      ,b.title as title      ,b.author as author      ,p.id as pid      ,p.title as ptitle      ,p.text as ptext     FROM      BLOG b LEFT OUTER JOIN POST p ON b.id = p.blog_id   
+[2014/12/22 22:00:13] [PreparedStatement     ] [DEBUG] {pstm-100001} Parameters: []
+[2014/12/22 22:00:13] [PreparedStatement     ] [DEBUG] {pstm-100001} Types: []
+[2014/12/22 22:00:13] [DataSourceTransactionManager] [DEBUG] Initiating transaction commit
+[2014/12/22 22:00:13] [DataSourceTransactionManager] [DEBUG] Committing JDBC transaction on Connection [jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver]
+[2014/12/22 22:00:13] [DataSourceTransactionManager] [DEBUG] Releasing JDBC Connection [jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver] after transaction
+[2014/12/22 22:00:13] [DataSourceUtils       ] [DEBUG] Returning JDBC Connection to DataSource
+[2014/12/22 22:00:13] [DataSourceTransactionManager] [DEBUG] Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+[2014/12/22 22:00:13] [DataSourceTransactionManager] [DEBUG] Acquired Connection [jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver] for JDBC transaction
+[2014/12/22 22:00:13] [DataSourceTransactionManager] [DEBUG] Switching JDBC Connection [jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver] to manual commit
+[2014/12/22 22:00:13] [SqlSessionUtils       ] [DEBUG] Creating a new SqlSession
+[2014/12/22 22:00:13] [SqlSessionUtils       ] [DEBUG] Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@59a02097]
+[2014/12/22 22:00:14] [SpringManagedTransaction] [DEBUG] JDBC Connection [jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver] will be managed by Spring
+[2014/12/22 22:00:14] [SqlSessionUtils       ] [DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@59a02097]
+[2014/12/22 22:00:14] [SqlSessionUtils       ] [DEBUG] Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@59a02097]
+[2014/12/22 22:00:14] [SqlSessionUtils       ] [DEBUG] Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@59a02097]
+[2014/12/22 22:00:14] [SqlSessionUtils       ] [DEBUG] Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@59a02097]
+[2014/12/22 22:00:14] [DataSourceTransactionManager] [DEBUG] Initiating transaction commit
+[2014/12/22 22:00:14] [DataSourceTransactionManager] [DEBUG] Committing JDBC transaction on Connection [jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver]
+[2014/12/22 22:00:14] [DataSourceTransactionManager] [DEBUG] Releasing JDBC Connection [jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver] after transaction
+[2014/12/22 22:00:14] [DataSourceUtils       ] [DEBUG] Returning JDBC Connection to DataSource
+[2014/12/22 22:00:31] [LogFactory            ] [DEBUG] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2014/12/22 22:00:32] [SqlSessionFactoryBean ] [DEBUG] Parsed configuration file: 'class path resource [mybatis/mybatis3-config.xml]'
+[2014/12/22 22:00:32] [SqlSessionFactoryBean ] [DEBUG] Property 'mapperLocations' was not specified or no matching resources found
+[2014/12/22 22:00:33] [DataSourceTransactionManager] [DEBUG] Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+[2014/12/22 22:00:34] [DataSourceTransactionManager] [DEBUG] Acquired Connection [jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver] for JDBC transaction
+[2014/12/22 22:00:34] [DataSourceTransactionManager] [DEBUG] Switching JDBC Connection [jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver] to manual commit
+[2014/12/22 22:00:34] [SqlMapClientTemplate  ] [DEBUG] Opened SqlMapSession [com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl@6ad2b64e] for iBATIS operation
+[2014/12/22 22:00:34] [Connection            ] [DEBUG] {conn-100000} Connection
+[2014/12/22 22:00:34] [SqlMapClientTemplate  ] [DEBUG] Obtained JDBC Connection [Transaction-aware proxy for target Connection  from DataSource [org.apache.commons.dbcp.BasicDataSource@54cb2185]] for iBATIS operation
+[2014/12/22 22:00:34] [Connection            ] [DEBUG] {conn-100000} Preparing Statement:        SELECT      b.id as id      ,b.title as title      ,b.author as author      ,p.id as pid      ,p.title as ptitle      ,p.text as ptext     FROM      BLOG b LEFT OUTER JOIN POST p ON b.id = p.blog_id   
+[2014/12/22 22:00:35] [PreparedStatement     ] [DEBUG] {pstm-100001} Executing Statement:        SELECT      b.id as id      ,b.title as title      ,b.author as author      ,p.id as pid      ,p.title as ptitle      ,p.text as ptext     FROM      BLOG b LEFT OUTER JOIN POST p ON b.id = p.blog_id   
+[2014/12/22 22:00:35] [PreparedStatement     ] [DEBUG] {pstm-100001} Parameters: []
+[2014/12/22 22:00:35] [PreparedStatement     ] [DEBUG] {pstm-100001} Types: []
+[2014/12/22 22:00:35] [DataSourceTransactionManager] [DEBUG] Initiating transaction commit
+[2014/12/22 22:00:35] [DataSourceTransactionManager] [DEBUG] Committing JDBC transaction on Connection [jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver]
+[2014/12/22 22:00:35] [DataSourceTransactionManager] [DEBUG] Releasing JDBC Connection [jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver] after transaction
+[2014/12/22 22:00:35] [DataSourceUtils       ] [DEBUG] Returning JDBC Connection to DataSource
+[2014/12/22 22:00:35] [DataSourceTransactionManager] [DEBUG] Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+[2014/12/22 22:00:35] [DataSourceTransactionManager] [DEBUG] Acquired Connection [jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver] for JDBC transaction
+[2014/12/22 22:00:35] [DataSourceTransactionManager] [DEBUG] Switching JDBC Connection [jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver] to manual commit
+[2014/12/22 22:00:35] [SqlSessionUtils       ] [DEBUG] Creating a new SqlSession
+[2014/12/22 22:00:35] [SqlSessionUtils       ] [DEBUG] Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6639be68]
+[2014/12/22 22:00:35] [SpringManagedTransaction] [DEBUG] JDBC Connection [jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver] will be managed by Spring
+[2014/12/22 22:00:35] [SqlSessionUtils       ] [DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6639be68]
+[2014/12/22 22:00:35] [SqlSessionUtils       ] [DEBUG] Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6639be68]
+[2014/12/22 22:00:35] [SqlSessionUtils       ] [DEBUG] Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6639be68]
+[2014/12/22 22:00:35] [SqlSessionUtils       ] [DEBUG] Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6639be68]
+[2014/12/22 22:00:35] [DataSourceTransactionManager] [DEBUG] Initiating transaction commit
+[2014/12/22 22:00:35] [DataSourceTransactionManager] [DEBUG] Committing JDBC transaction on Connection [jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver]
+[2014/12/22 22:00:35] [DataSourceTransactionManager] [DEBUG] Releasing JDBC Connection [jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver] after transaction
+[2014/12/22 22:00:35] [DataSourceUtils       ] [DEBUG] Returning JDBC Connection to DataSource
+[2014/12/22 22:01:30] [LogFactory            ] [DEBUG] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2014/12/22 22:01:31] [SqlSessionFactoryBean ] [DEBUG] Parsed configuration file: 'class path resource [mybatis/mybatis3-config.xml]'
+[2014/12/22 22:01:31] [SqlSessionFactoryBean ] [DEBUG] Property 'mapperLocations' was not specified or no matching resources found
+[2014/12/22 22:01:32] [DataSourceTransactionManager] [DEBUG] Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+[2014/12/22 22:01:33] [DataSourceTransactionManager] [DEBUG] Acquired Connection [jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver] for JDBC transaction
+[2014/12/22 22:01:33] [DataSourceTransactionManager] [DEBUG] Switching JDBC Connection [jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver] to manual commit
+[2014/12/22 22:01:33] [SqlMapClientTemplate  ] [DEBUG] Opened SqlMapSession [com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl@3bce4a8a] for iBATIS operation
+[2014/12/22 22:01:33] [Connection            ] [DEBUG] {conn-100000} Connection
+[2014/12/22 22:01:33] [SqlMapClientTemplate  ] [DEBUG] Obtained JDBC Connection [Transaction-aware proxy for target Connection  from DataSource [org.apache.commons.dbcp.BasicDataSource@3987f9f1]] for iBATIS operation
+[2014/12/22 22:01:33] [Connection            ] [DEBUG] {conn-100000} Preparing Statement:        SELECT      b.id as id      ,b.title as title      ,b.author as author      ,p.id as pid      ,p.title as ptitle      ,p.text as ptext     FROM      BLOG b LEFT OUTER JOIN POST p ON b.id = p.blog_id   
+[2014/12/22 22:01:33] [PreparedStatement     ] [DEBUG] {pstm-100001} Executing Statement:        SELECT      b.id as id      ,b.title as title      ,b.author as author      ,p.id as pid      ,p.title as ptitle      ,p.text as ptext     FROM      BLOG b LEFT OUTER JOIN POST p ON b.id = p.blog_id   
+[2014/12/22 22:01:33] [PreparedStatement     ] [DEBUG] {pstm-100001} Parameters: []
+[2014/12/22 22:01:33] [PreparedStatement     ] [DEBUG] {pstm-100001} Types: []
+[2014/12/22 22:01:34] [DataSourceTransactionManager] [DEBUG] Initiating transaction commit
+[2014/12/22 22:01:34] [DataSourceTransactionManager] [DEBUG] Committing JDBC transaction on Connection [jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver]
+[2014/12/22 22:01:34] [DataSourceTransactionManager] [DEBUG] Releasing JDBC Connection [jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver] after transaction
+[2014/12/22 22:01:34] [DataSourceUtils       ] [DEBUG] Returning JDBC Connection to DataSource
+[2014/12/22 22:01:34] [DataSourceTransactionManager] [DEBUG] Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+[2014/12/22 22:01:34] [DataSourceTransactionManager] [DEBUG] Acquired Connection [jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver] for JDBC transaction
+[2014/12/22 22:01:34] [DataSourceTransactionManager] [DEBUG] Switching JDBC Connection [jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver] to manual commit
+[2014/12/22 22:01:34] [SqlSessionUtils       ] [DEBUG] Creating a new SqlSession
+[2014/12/22 22:01:34] [SqlSessionUtils       ] [DEBUG] Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@63a1bc40]
+[2014/12/22 22:01:34] [SpringManagedTransaction] [DEBUG] JDBC Connection [jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver] will be managed by Spring
+[2014/12/22 22:01:34] [SqlSessionUtils       ] [DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@63a1bc40]
+[2014/12/22 22:01:34] [SqlSessionUtils       ] [DEBUG] Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@63a1bc40]
+[2014/12/22 22:01:34] [SqlSessionUtils       ] [DEBUG] Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@63a1bc40]
+[2014/12/22 22:01:34] [SqlSessionUtils       ] [DEBUG] Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@63a1bc40]
+[2014/12/22 22:01:34] [DataSourceTransactionManager] [DEBUG] Initiating transaction commit
+[2014/12/22 22:01:34] [DataSourceTransactionManager] [DEBUG] Committing JDBC transaction on Connection [jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver]
+[2014/12/22 22:01:34] [DataSourceTransactionManager] [DEBUG] Releasing JDBC Connection [jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver] after transaction
+[2014/12/22 22:01:34] [DataSourceUtils       ] [DEBUG] Returning JDBC Connection to DataSource
+[2014/12/22 22:01:48] [LogFactory            ] [DEBUG] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2014/12/22 22:01:49] [SqlSessionFactoryBean ] [DEBUG] Parsed configuration file: 'class path resource [mybatis/mybatis3-config.xml]'
+[2014/12/22 22:01:49] [SqlSessionFactoryBean ] [DEBUG] Property 'mapperLocations' was not specified or no matching resources found
+[2014/12/22 22:01:50] [DataSourceTransactionManager] [DEBUG] Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+[2014/12/22 22:01:51] [DataSourceTransactionManager] [DEBUG] Acquired Connection [jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver] for JDBC transaction
+[2014/12/22 22:01:51] [DataSourceTransactionManager] [DEBUG] Switching JDBC Connection [jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver] to manual commit
+[2014/12/22 22:01:51] [SqlMapClientTemplate  ] [DEBUG] Opened SqlMapSession [com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl@2df824a] for iBATIS operation
+[2014/12/22 22:01:51] [Connection            ] [DEBUG] {conn-100000} Connection
+[2014/12/22 22:01:51] [SqlMapClientTemplate  ] [DEBUG] Obtained JDBC Connection [Transaction-aware proxy for target Connection  from DataSource [org.apache.commons.dbcp.BasicDataSource@49586cbd]] for iBATIS operation
+[2014/12/22 22:01:51] [Connection            ] [DEBUG] {conn-100000} Preparing Statement:        SELECT      b.id as id      ,b.title as title      ,b.author as author      ,p.id as pid      ,p.title as ptitle      ,p.text as ptext     FROM      BLOG b LEFT OUTER JOIN POST p ON b.id = p.blog_id   
+[2014/12/22 22:01:51] [PreparedStatement     ] [DEBUG] {pstm-100001} Executing Statement:        SELECT      b.id as id      ,b.title as title      ,b.author as author      ,p.id as pid      ,p.title as ptitle      ,p.text as ptext     FROM      BLOG b LEFT OUTER JOIN POST p ON b.id = p.blog_id   
+[2014/12/22 22:01:51] [PreparedStatement     ] [DEBUG] {pstm-100001} Parameters: []
+[2014/12/22 22:01:51] [PreparedStatement     ] [DEBUG] {pstm-100001} Types: []
+[2014/12/22 22:01:51] [DataSourceTransactionManager] [DEBUG] Initiating transaction commit
+[2014/12/22 22:01:51] [DataSourceTransactionManager] [DEBUG] Committing JDBC transaction on Connection [jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver]
+[2014/12/22 22:01:51] [DataSourceTransactionManager] [DEBUG] Releasing JDBC Connection [jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver] after transaction
+[2014/12/22 22:01:51] [DataSourceUtils       ] [DEBUG] Returning JDBC Connection to DataSource
+[2014/12/22 22:01:51] [DataSourceTransactionManager] [DEBUG] Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+[2014/12/22 22:01:51] [DataSourceTransactionManager] [DEBUG] Acquired Connection [jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver] for JDBC transaction
+[2014/12/22 22:01:51] [DataSourceTransactionManager] [DEBUG] Switching JDBC Connection [jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver] to manual commit
+[2014/12/22 22:01:51] [SqlSessionUtils       ] [DEBUG] Creating a new SqlSession
+[2014/12/22 22:01:52] [SqlSessionUtils       ] [DEBUG] Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@438346a3]
+[2014/12/22 22:01:52] [SpringManagedTransaction] [DEBUG] JDBC Connection [jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver] will be managed by Spring
+[2014/12/22 22:01:52] [SqlSessionUtils       ] [DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@438346a3]
+[2014/12/22 22:01:52] [SqlSessionUtils       ] [DEBUG] Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@438346a3]
+[2014/12/22 22:01:52] [SqlSessionUtils       ] [DEBUG] Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@438346a3]
+[2014/12/22 22:01:52] [SqlSessionUtils       ] [DEBUG] Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@438346a3]
+[2014/12/22 22:01:52] [DataSourceTransactionManager] [DEBUG] Initiating transaction commit
+[2014/12/22 22:01:52] [DataSourceTransactionManager] [DEBUG] Committing JDBC transaction on Connection [jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver]
+[2014/12/22 22:01:52] [DataSourceTransactionManager] [DEBUG] Releasing JDBC Connection [jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver] after transaction
+[2014/12/22 22:01:52] [DataSourceUtils       ] [DEBUG] Returning JDBC Connection to DataSource
+[2014/12/22 23:51:45] [LogFactory            ] [DEBUG] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[2014/12/22 23:51:47] [SqlSessionFactoryBean ] [DEBUG] Parsed configuration file: 'class path resource [mybatis/mybatis3-config.xml]'
+[2014/12/22 23:51:47] [SqlSessionFactoryBean ] [DEBUG] Property 'mapperLocations' was not specified or no matching resources found
+[2014/12/22 23:51:49] [DataSourceTransactionManager] [DEBUG] Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+[2014/12/22 23:51:51] [DataSourceTransactionManager] [DEBUG] Acquired Connection [jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver] for JDBC transaction
+[2014/12/22 23:51:51] [DataSourceTransactionManager] [DEBUG] Switching JDBC Connection [jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver] to manual commit
+[2014/12/22 23:51:51] [SqlMapClientTemplate  ] [DEBUG] Opened SqlMapSession [com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl@74e8f8c5] for iBATIS operation
+[2014/12/22 23:51:51] [Connection            ] [DEBUG] {conn-100000} Connection
+[2014/12/22 23:51:51] [SqlMapClientTemplate  ] [DEBUG] Obtained JDBC Connection [Transaction-aware proxy for target Connection  from DataSource [org.apache.commons.dbcp.BasicDataSource@39757337]] for iBATIS operation
+[2014/12/22 23:51:51] [Connection            ] [DEBUG] {conn-100000} Preparing Statement:        SELECT      b.id as id      ,b.title as title      ,b.author as author      ,p.id as pid      ,p.title as ptitle      ,p.text as ptext     FROM      BLOG b LEFT OUTER JOIN POST p ON b.id = p.blog_id   
+[2014/12/22 23:51:51] [PreparedStatement     ] [DEBUG] {pstm-100001} Executing Statement:        SELECT      b.id as id      ,b.title as title      ,b.author as author      ,p.id as pid      ,p.title as ptitle      ,p.text as ptext     FROM      BLOG b LEFT OUTER JOIN POST p ON b.id = p.blog_id   
+[2014/12/22 23:51:51] [PreparedStatement     ] [DEBUG] {pstm-100001} Parameters: []
+[2014/12/22 23:51:51] [PreparedStatement     ] [DEBUG] {pstm-100001} Types: []
+[2014/12/22 23:51:51] [DataSourceTransactionManager] [DEBUG] Initiating transaction commit
+[2014/12/22 23:51:51] [DataSourceTransactionManager] [DEBUG] Committing JDBC transaction on Connection [jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver]
+[2014/12/22 23:51:51] [DataSourceTransactionManager] [DEBUG] Releasing JDBC Connection [jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver] after transaction
+[2014/12/22 23:51:51] [DataSourceUtils       ] [DEBUG] Returning JDBC Connection to DataSource
+[2014/12/22 23:51:51] [DataSourceTransactionManager] [DEBUG] Creating new transaction with name [null]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+[2014/12/22 23:51:51] [DataSourceTransactionManager] [DEBUG] Acquired Connection [jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver] for JDBC transaction
+[2014/12/22 23:51:51] [DataSourceTransactionManager] [DEBUG] Switching JDBC Connection [jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver] to manual commit
+[2014/12/22 23:51:51] [SqlSessionUtils       ] [DEBUG] Creating a new SqlSession
+[2014/12/22 23:51:51] [SqlSessionUtils       ] [DEBUG] Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@19af9e98]
+[2014/12/22 23:51:52] [SpringManagedTransaction] [DEBUG] JDBC Connection [jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver] will be managed by Spring
+[2014/12/22 23:51:52] [SqlSessionUtils       ] [DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@19af9e98]
+[2014/12/22 23:51:52] [SqlSessionUtils       ] [DEBUG] Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@19af9e98]
+[2014/12/22 23:51:52] [SqlSessionUtils       ] [DEBUG] Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@19af9e98]
+[2014/12/22 23:51:52] [SqlSessionUtils       ] [DEBUG] Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@19af9e98]
+[2014/12/22 23:51:52] [DataSourceTransactionManager] [DEBUG] Initiating transaction commit
+[2014/12/22 23:51:52] [DataSourceTransactionManager] [DEBUG] Committing JDBC transaction on Connection [jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver]
+[2014/12/22 23:51:52] [DataSourceTransactionManager] [DEBUG] Releasing JDBC Connection [jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver] after transaction
+[2014/12/22 23:51:52] [DataSourceUtils       ] [DEBUG] Returning JDBC Connection to DataSource

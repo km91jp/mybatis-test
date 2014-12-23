@@ -1,0 +1,512 @@
+[2014/12/22 14:38:00] [TestExecutor          ] [INFO ] execute [MyBatis2]insert&update
+[2014/12/22 14:38:01] [TestExecutor          ] [INFO ] elapsed time:[42, 11, 23] Average:25.0
+[2014/12/22 14:38:01] [TestExecutor          ] [INFO ] execute [MyBatis2]insert,update
+[2014/12/22 14:38:01] [TestExecutor          ] [INFO ] elapsed time:[28, 9, 11] Average:16.0
+[2014/12/22 14:38:01] [TestExecutor          ] [INFO ] execute [MyBatis3]insert&update[SIMPLE]
+[2014/12/22 14:38:01] [TestExecutor          ] [INFO ] elapsed time:[11, 8, 6] Average:8.0
+[2014/12/22 14:38:01] [TestExecutor          ] [INFO ] execute [MyBatis3]insert&update[REUSE]
+[2014/12/22 14:38:01] [TestExecutor          ] [INFO ] elapsed time:[7, 5, 8] Average:6.0
+[2014/12/22 14:38:01] [TestExecutor          ] [INFO ] execute [MyBatis3]insert&update[BATCH]
+[2014/12/22 14:38:01] [TestExecutor          ] [INFO ] elapsed time:[7, 12, 16] Average:11.0
+[2014/12/22 14:38:01] [TestExecutor          ] [INFO ] execute [MyBatis3]insert,update[SIMPLE]
+[2014/12/22 14:38:01] [TestExecutor          ] [INFO ] elapsed time:[6, 6, 6] Average:6.0
+[2014/12/22 14:38:01] [TestExecutor          ] [INFO ] execute [MyBatis3]insert,update[REUSE]
+[2014/12/22 14:38:01] [TestExecutor          ] [INFO ] elapsed time:[7, 5, 7] Average:6.0
+[2014/12/22 14:38:01] [TestExecutor          ] [INFO ] execute [MyBatis3]insert,update[BATCH]
+[2014/12/22 14:38:01] [TestExecutor          ] [INFO ] elapsed time:[5, 5, 19] Average:9.0
+[2014/12/22 14:46:58] [TestExecutor          ] [INFO ] execute [MyBatis2]insert&update
+[2014/12/22 14:48:11] [TestExecutor          ] [INFO ] elapsed time:[36337, 3363, 1658] Average:13786.0
+[2014/12/22 14:48:15] [TestExecutor          ] [INFO ] execute [MyBatis2]insert,update
+[2014/12/22 14:48:21] [TestExecutor          ] [INFO ] elapsed time:[2754, 1479, 1473] Average:1902.0
+[2014/12/22 14:48:31] [TestExecutor          ] [INFO ] execute [MyBatis3]insert&update[SIMPLE]
+[2014/12/22 15:19:50] [TestExecutor          ] [INFO ] elapsed time:[858197, 525584, 281726] Average:555169.0
+[2014/12/22 15:19:57] [TestExecutor          ] [INFO ] execute [MyBatis3]insert&update[REUSE]
+[2014/12/22 17:10:25] [TestExecutor          ] [INFO ] execute [MyBatis2]insert&update
+[2014/12/22 17:10:26] [TestExecutor          ] [INFO ] elapsed time:[91, 19, 21] Average:43.0
+[2014/12/22 17:10:26] [TestExecutor          ] [INFO ] execute [MyBatis2]insert,update
+[2014/12/22 17:10:26] [TestExecutor          ] [INFO ] elapsed time:[14, 12, 12] Average:12.0
+[2014/12/22 17:10:26] [TestExecutor          ] [INFO ] execute [MyBatis3]insert&update[SIMPLE]
+[2014/12/22 17:10:27] [TestExecutor          ] [INFO ] elapsed time:[91, 12, 9] Average:37.0
+[2014/12/22 17:10:27] [TestExecutor          ] [INFO ] execute [MyBatis3]insert,update[SIMPLE]
+[2014/12/22 17:10:27] [TestExecutor          ] [INFO ] elapsed time:[39, 8, 19] Average:22.0
+[2014/12/22 17:10:27] [TestExecutor          ] [INFO ] execute [MyBatis3]insert&update[REUSE]
+[2014/12/22 17:10:27] [TestExecutor          ] [INFO ] elapsed time:[8, 11, 12] Average:10.0
+[2014/12/22 17:10:27] [TestExecutor          ] [INFO ] execute [MyBatis3]insert,update[REUSE]
+[2014/12/22 17:10:27] [TestExecutor          ] [INFO ] elapsed time:[7, 8, 11] Average:8.0
+[2014/12/22 17:10:27] [TestExecutor          ] [INFO ] execute [MyBatis3]insert&update[BATCH]
+[2014/12/22 17:10:27] [TestExecutor          ] [INFO ] elapsed time:[9, 48, 81] Average:46.0
+[2014/12/22 17:10:27] [TestExecutor          ] [INFO ] execute [MyBatis3]insert,update[BATCH]
+[2014/12/22 17:10:27] [TestExecutor          ] [INFO ] elapsed time:[8, 5, 18] Average:10.0
+[2014/12/22 17:11:22] [TestExecutor          ] [INFO ] execute [MyBatis2]insert&update
+[2014/12/22 17:11:22] [TestExecutor          ] [INFO ] elapsed time:[56, 15, 17] Average:29.0
+[2014/12/22 17:11:22] [TestExecutor          ] [INFO ] execute [MyBatis2]insert,update
+[2014/12/22 17:11:22] [TestExecutor          ] [INFO ] elapsed time:[15, 11, 13] Average:13.0
+[2014/12/22 17:11:22] [TestExecutor          ] [INFO ] execute [MyBatis3]insert&update[SIMPLE]
+[2014/12/22 17:11:23] [TestExecutor          ] [INFO ] elapsed time:[29, 11, 11] Average:17.0
+[2014/12/22 17:11:23] [TestExecutor          ] [INFO ] execute [MyBatis3]insert,update[SIMPLE]
+[2014/12/22 17:11:23] [TestExecutor          ] [INFO ] elapsed time:[7, 8, 12] Average:9.0
+[2014/12/22 17:11:23] [TestExecutor          ] [INFO ] execute [MyBatis3]insert&update[REUSE]
+[2014/12/22 17:11:23] [TestExecutor          ] [INFO ] elapsed time:[36, 11, 7] Average:18.0
+[2014/12/22 17:11:23] [TestExecutor          ] [INFO ] execute [MyBatis3]insert,update[REUSE]
+[2014/12/22 17:11:23] [TestExecutor          ] [INFO ] elapsed time:[7, 13, 9] Average:9.0
+[2014/12/22 17:11:23] [TestExecutor          ] [INFO ] execute [MyBatis3]insert&update[BATCH]
+[2014/12/22 17:11:23] [TestExecutor          ] [INFO ] elapsed time:[8, 8, 7] Average:7.0
+[2014/12/22 17:11:23] [TestExecutor          ] [INFO ] execute [MyBatis3]insert,update[BATCH]
+[2014/12/22 17:11:23] [TestExecutor          ] [INFO ] elapsed time:[6, 19, 7] Average:10.0
+[2014/12/22 17:11:23] [TestExecutor          ] [INFO ] execute [MyBatis2]1n
+[2014/12/22 17:11:23] [TestExecutor          ] [INFO ] elapsed time:[312] Average:312.0
+[2014/12/22 17:11:23] [TestExecutor          ] [INFO ] execute [MyBatis3]1n
+[2014/12/22 17:12:54] [TestExecutor          ] [INFO ] execute [MyBatis2]1n
+[2014/12/22 17:12:55] [TestExecutor          ] [INFO ] elapsed time:[476] Average:476.0
+[2014/12/22 17:12:55] [TestExecutor          ] [INFO ] execute [MyBatis3]1n
+[2014/12/22 17:12:55] [TestExecutor          ] [INFO ] elapsed time:[80] Average:80.0
+[2014/12/22 17:15:44] [TestExecutor          ] [INFO ] execute [MyBatis2]1n
+[2014/12/22 17:15:46] [TestExecutor          ] [INFO ] elapsed time:[1488] Average:1488.0
+[2014/12/22 17:15:46] [TestExecutor          ] [INFO ] execute [MyBatis3]1n
+[2014/12/22 17:15:46] [TestExecutor          ] [INFO ] elapsed time:[392] Average:392.0
+[2014/12/22 17:16:42] [TestExecutor          ] [INFO ] execute [MyBatis2]1n
+[2014/12/22 17:16:43] [TestExecutor          ] [INFO ] elapsed time:[504] Average:504.0
+[2014/12/22 17:16:43] [TestExecutor          ] [INFO ] execute [MyBatis3]1n
+[2014/12/22 17:16:43] [TestExecutor          ] [INFO ] elapsed time:[136] Average:136.0
+[2014/12/22 17:18:20] [TestExecutor          ] [INFO ] execute [MyBatis2]1n
+[2014/12/22 17:18:22] [TestExecutor          ] [INFO ] elapsed time:[1439] Average:1439.0
+[2014/12/22 17:18:22] [TestExecutor          ] [INFO ] execute [MyBatis3]1n
+[2014/12/22 17:18:22] [TestExecutor          ] [INFO ] elapsed time:[282] Average:282.0
+[2014/12/22 21:13:11] [TestExecutor          ] [INFO ] execute [MyBatis2]1n
+[2014/12/22 21:13:12] [TestExecutor          ] [INFO ] elapsed time:[1067] Average:1067.0
+[2014/12/22 21:13:12] [TestExecutor          ] [INFO ] execute [MyBatis3]1n
+[2014/12/22 21:13:13] [TestExecutor          ] [INFO ] elapsed time:[789] Average:789.0
+[2014/12/22 21:14:53] [TestExecutor          ] [INFO ] execute [MyBatis2]1n
+[2014/12/22 21:14:53] [TestExecutor          ] [INFO ] elapsed time:[364] Average:364.0
+[2014/12/22 21:14:53] [TestExecutor          ] [INFO ] execute [MyBatis3]1n
+[2014/12/22 21:14:53] [TestExecutor          ] [INFO ] elapsed time:[47] Average:47.0
+[2014/12/22 21:15:58] [TestExecutor          ] [INFO ] execute [MyBatis2]1n
+[2014/12/22 21:15:59] [TestExecutor          ] [INFO ] elapsed time:[432] Average:432.0
+[2014/12/22 21:15:59] [TestExecutor          ] [INFO ] execute [MyBatis3]1n
+[2014/12/22 21:15:59] [TestExecutor          ] [INFO ] elapsed time:[128] Average:128.0
+[2014/12/22 21:19:46] [TestExecutor          ] [INFO ] execute [MyBatis2]1n
+[2014/12/22 21:19:47] [TestExecutor          ] [INFO ] elapsed time:[596] Average:596.0
+[2014/12/22 21:19:47] [TestExecutor          ] [INFO ] execute [MyBatis3]1n
+[2014/12/22 21:19:47] [TestExecutor          ] [INFO ] com.example.dto.Blog@539c5048[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@47875da7[id=1,title=blog1_text1,text=text1], com.example.dto.Post@815a3a1[id=2,title=blog1_text2,text=text2], com.example.dto.Post@44a9a32c[id=3,title=blog1_text3,text=text3]]]
+[2014/12/22 21:19:47] [TestExecutor          ] [INFO ] com.example.dto.Blog@5d17c0eb[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@427ab40c[id=4,title=blog2_text1,text=text4], com.example.dto.Post@5c2a1ed[id=5,title=blog2_text2,text=text5], com.example.dto.Post@2d14d18f[id=6,title=blog2_text3,text=text6]]]
+[2014/12/22 21:19:47] [TestExecutor          ] [INFO ] com.example.dto.Blog@31ca1a68[id=3,title=blog3,author=author3,posts=[com.example.dto.Post@4b8bbb61[id=7,title=blog3_text1,text=text7]]]
+[2014/12/22 21:19:47] [TestExecutor          ] [INFO ] com.example.dto.Blog@42bb0406[id=4,title=blog4,author=author4,posts=[com.example.dto.Post@4054824[id=8,title=blog4_text1,text=text8]]]
+[2014/12/22 21:19:47] [TestExecutor          ] [INFO ] com.example.dto.Blog@76c3358b[id=5,title=blog5,author=author5,posts=[com.example.dto.Post@9f07597[id=9,title=blog5_text1,text=text9]]]
+[2014/12/22 21:19:47] [TestExecutor          ] [INFO ] elapsed time:[147] Average:147.0
+[2014/12/22 21:24:36] [TestExecutor          ] [INFO ] execute [MyBatis2]1n
+[2014/12/22 21:24:36] [TestExecutor          ] [INFO ] num=0
+[2014/12/22 21:24:36] [TestExecutor          ] [INFO ] elapsed time:[518] Average:518.0
+[2014/12/22 21:24:36] [TestExecutor          ] [INFO ] execute [MyBatis3]1n
+[2014/12/22 21:24:36] [TestExecutor          ] [INFO ] num=5
+[2014/12/22 21:24:36] [TestExecutor          ] [INFO ] com.example.dto.Blog@5554ea79[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@2e6f947b[id=1,title=blog1_text1,text=text1], com.example.dto.Post@1f7d2f0e[id=2,title=blog1_text2,text=text2], com.example.dto.Post@539c5048[id=3,title=blog1_text3,text=text3]]]
+[2014/12/22 21:24:36] [TestExecutor          ] [INFO ] com.example.dto.Blog@3b5ad1da[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@47875da7[id=4,title=blog2_text1,text=text4], com.example.dto.Post@815a3a1[id=5,title=blog2_text2,text=text5], com.example.dto.Post@44a9a32c[id=6,title=blog2_text3,text=text6]]]
+[2014/12/22 21:24:36] [TestExecutor          ] [INFO ] com.example.dto.Blog@5d17c0eb[id=3,title=blog3,author=author3,posts=[com.example.dto.Post@427ab40c[id=7,title=blog3_text1,text=text7]]]
+[2014/12/22 21:24:36] [TestExecutor          ] [INFO ] com.example.dto.Blog@5c2a1ed[id=4,title=blog4,author=author4,posts=[com.example.dto.Post@2d14d18f[id=8,title=blog4_text1,text=text8]]]
+[2014/12/22 21:24:36] [TestExecutor          ] [INFO ] com.example.dto.Blog@31ca1a68[id=5,title=blog5,author=author5,posts=[com.example.dto.Post@4b8bbb61[id=9,title=blog5_text1,text=text9]]]
+[2014/12/22 21:24:36] [TestExecutor          ] [INFO ] elapsed time:[144] Average:144.0
+[2014/12/22 21:25:09] [TestExecutor          ] [INFO ] execute [MyBatis2]1n
+[2014/12/22 21:25:09] [TestExecutor          ] [INFO ] num=0
+[2014/12/22 21:25:09] [TestExecutor          ] [INFO ] elapsed time:[433] Average:433.0
+[2014/12/22 21:25:09] [TestExecutor          ] [INFO ] execute [MyBatis3]1n
+[2014/12/22 21:25:10] [TestExecutor          ] [INFO ] num=5
+[2014/12/22 21:25:10] [TestExecutor          ] [INFO ] com.example.dto.Blog@6789b939[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@1fe2c9bf[id=1,title=blog1_text1,text=text1], com.example.dto.Post@622b2af3[id=2,title=blog1_text2,text=text2], com.example.dto.Post@10e9df[id=3,title=blog1_text3,text=text3]]]
+[2014/12/22 21:25:10] [TestExecutor          ] [INFO ] com.example.dto.Blog@566a2f81[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@5554ea79[id=4,title=blog2_text1,text=text4], com.example.dto.Post@39edd9b3[id=5,title=blog2_text2,text=text5], com.example.dto.Post@2e6f947b[id=6,title=blog2_text3,text=text6]]]
+[2014/12/22 21:25:10] [TestExecutor          ] [INFO ] com.example.dto.Blog@1f7d2f0e[id=3,title=blog3,author=author3,posts=[com.example.dto.Post@539c5048[id=7,title=blog3_text1,text=text7]]]
+[2014/12/22 21:25:10] [TestExecutor          ] [INFO ] com.example.dto.Blog@3b5ad1da[id=4,title=blog4,author=author4,posts=[com.example.dto.Post@47875da7[id=8,title=blog4_text1,text=text8]]]
+[2014/12/22 21:25:10] [TestExecutor          ] [INFO ] com.example.dto.Blog@815a3a1[id=5,title=blog5,author=author5,posts=[com.example.dto.Post@44a9a32c[id=9,title=blog5_text1,text=text9]]]
+[2014/12/22 21:25:10] [TestExecutor          ] [INFO ] elapsed time:[113] Average:113.0
+[2014/12/22 21:25:38] [TestExecutor          ] [INFO ] execute [MyBatis2]1n
+[2014/12/22 21:25:39] [TestExecutor          ] [INFO ] num=0
+[2014/12/22 21:25:39] [TestExecutor          ] [INFO ] elapsed time:[415] Average:415.0
+[2014/12/22 21:25:39] [TestExecutor          ] [INFO ] execute [MyBatis3]1n
+[2014/12/22 21:25:39] [TestExecutor          ] [INFO ] num=5
+[2014/12/22 21:25:39] [TestExecutor          ] [INFO ] com.example.dto.Blog@5d17c0eb[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@5c2a1ed[id=1,title=blog1_text1,text=text1], com.example.dto.Post@2d14d18f[id=2,title=blog1_text2,text=text2], com.example.dto.Post@31ca1a68[id=3,title=blog1_text3,text=text3]]]
+[2014/12/22 21:25:39] [TestExecutor          ] [INFO ] com.example.dto.Blog@4b8bbb61[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@42bb0406[id=4,title=blog2_text1,text=text4], com.example.dto.Post@4054824[id=5,title=blog2_text2,text=text5], com.example.dto.Post@76c3358b[id=6,title=blog2_text3,text=text6]]]
+[2014/12/22 21:25:39] [TestExecutor          ] [INFO ] com.example.dto.Blog@9f07597[id=3,title=blog3,author=author3,posts=[com.example.dto.Post@9b8119a[id=7,title=blog3_text1,text=text7]]]
+[2014/12/22 21:25:39] [TestExecutor          ] [INFO ] com.example.dto.Blog@138b9a72[id=4,title=blog4,author=author4,posts=[com.example.dto.Post@3248bc64[id=8,title=blog4_text1,text=text8]]]
+[2014/12/22 21:25:39] [TestExecutor          ] [INFO ] com.example.dto.Blog@45486306[id=5,title=blog5,author=author5,posts=[com.example.dto.Post@135d4273[id=9,title=blog5_text1,text=text9]]]
+[2014/12/22 21:25:39] [TestExecutor          ] [INFO ] elapsed time:[163] Average:163.0
+[2014/12/22 21:28:33] [TestExecutor          ] [INFO ] execute [MyBatis2]1n
+[2014/12/22 21:28:33] [TestExecutor          ] [INFO ] num=0
+[2014/12/22 21:28:33] [TestExecutor          ] [INFO ] elapsed time:[489] Average:489.0
+[2014/12/22 21:28:33] [TestExecutor          ] [INFO ] execute [MyBatis3]1n
+[2014/12/22 21:28:34] [TestExecutor          ] [INFO ] num=5
+[2014/12/22 21:28:34] [TestExecutor          ] [INFO ] com.example.dto.Blog@539c5048[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@47875da7[id=1,title=blog1_text1,text=text1], com.example.dto.Post@815a3a1[id=2,title=blog1_text2,text=text2], com.example.dto.Post@44a9a32c[id=3,title=blog1_text3,text=text3]]]
+[2014/12/22 21:28:34] [TestExecutor          ] [INFO ] com.example.dto.Blog@5d17c0eb[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@427ab40c[id=4,title=blog2_text1,text=text4], com.example.dto.Post@5c2a1ed[id=5,title=blog2_text2,text=text5], com.example.dto.Post@2d14d18f[id=6,title=blog2_text3,text=text6]]]
+[2014/12/22 21:28:34] [TestExecutor          ] [INFO ] com.example.dto.Blog@31ca1a68[id=3,title=blog3,author=author3,posts=[com.example.dto.Post@4b8bbb61[id=7,title=blog3_text1,text=text7]]]
+[2014/12/22 21:28:34] [TestExecutor          ] [INFO ] com.example.dto.Blog@42bb0406[id=4,title=blog4,author=author4,posts=[com.example.dto.Post@4054824[id=8,title=blog4_text1,text=text8]]]
+[2014/12/22 21:28:34] [TestExecutor          ] [INFO ] com.example.dto.Blog@76c3358b[id=5,title=blog5,author=author5,posts=[com.example.dto.Post@9f07597[id=9,title=blog5_text1,text=text9]]]
+[2014/12/22 21:28:34] [TestExecutor          ] [INFO ] elapsed time:[133] Average:133.0
+[2014/12/22 21:30:20] [TestExecutor          ] [INFO ] execute [MyBatis2]1n
+[2014/12/22 21:30:41] [TestExecutor          ] [INFO ] execute [MyBatis2]1n
+[2014/12/22 21:30:41] [TestExecutor          ] [INFO ] num=5
+[2014/12/22 21:30:41] [TestExecutor          ] [INFO ] com.example.dto.Blog@48c38157[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@63a6b16f[id=1,title=blog1_text1,text=text1], com.example.dto.Post@54cb2185[id=2,title=blog1_text2,text=text2], com.example.dto.Post@6405ce40[id=3,title=blog1_text3,text=text3]]]
+[2014/12/22 21:30:41] [TestExecutor          ] [INFO ] com.example.dto.Blog@3927ff0d[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@70d9cbcb[id=4,title=blog2_text1,text=text4], com.example.dto.Post@6ad2b64e[id=5,title=blog2_text2,text=text5], com.example.dto.Post@2fbef1ac[id=6,title=blog2_text3,text=text6]]]
+[2014/12/22 21:30:41] [TestExecutor          ] [INFO ] com.example.dto.Blog@20ec6bb1[id=3,title=blog3,author=author3,posts=[com.example.dto.Post@192425a[id=7,title=blog3_text1,text=text7]]]
+[2014/12/22 21:30:41] [TestExecutor          ] [INFO ] com.example.dto.Blog@29422384[id=4,title=blog4,author=author4,posts=[com.example.dto.Post@3529c445[id=8,title=blog4_text1,text=text8]]]
+[2014/12/22 21:30:41] [TestExecutor          ] [INFO ] com.example.dto.Blog@4914a947[id=5,title=blog5,author=author5,posts=[com.example.dto.Post@6b7599cc[id=9,title=blog5_text1,text=text9]]]
+[2014/12/22 21:30:41] [TestExecutor          ] [INFO ] elapsed time:[373] Average:373.0
+[2014/12/22 21:30:41] [TestExecutor          ] [INFO ] execute [MyBatis3]1n
+[2014/12/22 21:30:41] [TestExecutor          ] [INFO ] num=5
+[2014/12/22 21:30:41] [TestExecutor          ] [INFO ] com.example.dto.Blog@60dc4c81[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@1f22dad5[id=1,title=blog1_text1,text=text1], com.example.dto.Post@294ce5eb[id=2,title=blog1_text2,text=text2], com.example.dto.Post@778abc7b[id=3,title=blog1_text3,text=text3]]]
+[2014/12/22 21:30:41] [TestExecutor          ] [INFO ] com.example.dto.Blog@355c6c8d[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@46dab859[id=4,title=blog2_text1,text=text4], com.example.dto.Post@417cff66[id=5,title=blog2_text2,text=text5], com.example.dto.Post@7563a320[id=6,title=blog2_text3,text=text6]]]
+[2014/12/22 21:30:41] [TestExecutor          ] [INFO ] com.example.dto.Blog@606ac615[id=3,title=blog3,author=author3,posts=[com.example.dto.Post@1f2be27[id=7,title=blog3_text1,text=text7]]]
+[2014/12/22 21:30:41] [TestExecutor          ] [INFO ] com.example.dto.Blog@67a1f370[id=4,title=blog4,author=author4,posts=[com.example.dto.Post@39757337[id=8,title=blog4_text1,text=text8]]]
+[2014/12/22 21:30:41] [TestExecutor          ] [INFO ] com.example.dto.Blog@4ddf3d59[id=5,title=blog5,author=author5,posts=[com.example.dto.Post@7b34c5ff[id=9,title=blog5_text1,text=text9]]]
+[2014/12/22 21:30:41] [TestExecutor          ] [INFO ] elapsed time:[124] Average:124.0
+[2014/12/22 21:33:12] [TestExecutor          ] [INFO ] execute [MyBatis2]1n
+[2014/12/22 21:33:13] [TestExecutor          ] [INFO ] num=9
+[2014/12/22 21:33:13] [TestExecutor          ] [INFO ] com.example.dto.Blog@71b493c6[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@6af2da21[id=1,title=blog1_text1,text=text1]]]
+[2014/12/22 21:33:13] [TestExecutor          ] [INFO ] com.example.dto.Blog@6dcee361[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@29b22d99[id=2,title=blog1_text2,text=text2]]]
+[2014/12/22 21:33:13] [TestExecutor          ] [INFO ] com.example.dto.Blog@70cfad31[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@5273a5d3[id=3,title=blog1_text3,text=text3]]]
+[2014/12/22 21:33:13] [TestExecutor          ] [INFO ] com.example.dto.Blog@268be9ef[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@2bab5dae[id=4,title=blog2_text1,text=text4]]]
+[2014/12/22 21:33:13] [TestExecutor          ] [INFO ] com.example.dto.Blog@7f9360e7[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@24bf1f20[id=5,title=blog2_text2,text=text5]]]
+[2014/12/22 21:33:13] [TestExecutor          ] [INFO ] com.example.dto.Blog@7f9480b8[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@6e8ef177[id=6,title=blog2_text3,text=text6]]]
+[2014/12/22 21:33:13] [TestExecutor          ] [INFO ] com.example.dto.Blog@6a8ef455[id=3,title=blog3,author=author3,posts=[com.example.dto.Post@4f4b2f1a[id=7,title=blog3_text1,text=text7]]]
+[2014/12/22 21:33:13] [TestExecutor          ] [INFO ] com.example.dto.Blog@51017ca1[id=4,title=blog4,author=author4,posts=[com.example.dto.Post@389d5793[id=8,title=blog4_text1,text=text8]]]
+[2014/12/22 21:33:13] [TestExecutor          ] [INFO ] com.example.dto.Blog@61e090ee[id=5,title=blog5,author=author5,posts=[com.example.dto.Post@5e4b2b75[id=9,title=blog5_text1,text=text9]]]
+[2014/12/22 21:33:13] [TestExecutor          ] [INFO ] elapsed time:[467] Average:467.0
+[2014/12/22 21:33:13] [TestExecutor          ] [INFO ] execute [MyBatis3]1n
+[2014/12/22 21:33:13] [TestExecutor          ] [INFO ] num=5
+[2014/12/22 21:33:13] [TestExecutor          ] [INFO ] com.example.dto.Blog@427ab40c[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@5c2a1ed[id=1,title=blog1_text1,text=text1], com.example.dto.Post@2d14d18f[id=2,title=blog1_text2,text=text2], com.example.dto.Post@31ca1a68[id=3,title=blog1_text3,text=text3]]]
+[2014/12/22 21:33:13] [TestExecutor          ] [INFO ] com.example.dto.Blog@4b8bbb61[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@42bb0406[id=4,title=blog2_text1,text=text4], com.example.dto.Post@4054824[id=5,title=blog2_text2,text=text5], com.example.dto.Post@76c3358b[id=6,title=blog2_text3,text=text6]]]
+[2014/12/22 21:33:13] [TestExecutor          ] [INFO ] com.example.dto.Blog@9f07597[id=3,title=blog3,author=author3,posts=[com.example.dto.Post@9b8119a[id=7,title=blog3_text1,text=text7]]]
+[2014/12/22 21:33:13] [TestExecutor          ] [INFO ] com.example.dto.Blog@138b9a72[id=4,title=blog4,author=author4,posts=[com.example.dto.Post@3248bc64[id=8,title=blog4_text1,text=text8]]]
+[2014/12/22 21:33:13] [TestExecutor          ] [INFO ] com.example.dto.Blog@45486306[id=5,title=blog5,author=author5,posts=[com.example.dto.Post@135d4273[id=9,title=blog5_text1,text=text9]]]
+[2014/12/22 21:33:13] [TestExecutor          ] [INFO ] elapsed time:[120] Average:120.0
+[2014/12/22 21:35:10] [TestExecutor          ] [INFO ] execute [MyBatis2]1n
+[2014/12/22 21:35:11] [TestExecutor          ] [INFO ] num=9
+[2014/12/22 21:35:11] [TestExecutor          ] [INFO ] com.example.dto.Blog@7cd1a1ab[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@65570c24[id=1,title=blog1_text1,text=text1]]]
+[2014/12/22 21:35:11] [TestExecutor          ] [INFO ] com.example.dto.Blog@35de4376[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@131f139b[id=2,title=blog1_text2,text=text2]]]
+[2014/12/22 21:35:11] [TestExecutor          ] [INFO ] com.example.dto.Blog@5d402eeb[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@20c87621[id=3,title=blog1_text3,text=text3]]]
+[2014/12/22 21:35:11] [TestExecutor          ] [INFO ] com.example.dto.Blog@48c38157[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@1b609c13[id=4,title=blog2_text1,text=text4]]]
+[2014/12/22 21:35:11] [TestExecutor          ] [INFO ] com.example.dto.Blog@63a6b16f[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@54cb2185[id=5,title=blog2_text2,text=text5]]]
+[2014/12/22 21:35:11] [TestExecutor          ] [INFO ] com.example.dto.Blog@6405ce40[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@3927ff0d[id=6,title=blog2_text3,text=text6]]]
+[2014/12/22 21:35:11] [TestExecutor          ] [INFO ] com.example.dto.Blog@70d9cbcb[id=3,title=blog3,author=author3,posts=[com.example.dto.Post@6ad2b64e[id=7,title=blog3_text1,text=text7]]]
+[2014/12/22 21:35:11] [TestExecutor          ] [INFO ] com.example.dto.Blog@2fbef1ac[id=4,title=blog4,author=author4,posts=[com.example.dto.Post@20ec6bb1[id=8,title=blog4_text1,text=text8]]]
+[2014/12/22 21:35:11] [TestExecutor          ] [INFO ] com.example.dto.Blog@192425a[id=5,title=blog5,author=author5,posts=[com.example.dto.Post@29422384[id=9,title=blog5_text1,text=text9]]]
+[2014/12/22 21:35:11] [TestExecutor          ] [INFO ] elapsed time:[706] Average:706.0
+[2014/12/22 21:35:11] [TestExecutor          ] [INFO ] execute [MyBatis3]1n
+[2014/12/22 21:35:11] [TestExecutor          ] [INFO ] num=5
+[2014/12/22 21:35:11] [TestExecutor          ] [INFO ] com.example.dto.Blog@326147d9[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@10b41166[id=1,title=blog1_text1,text=text1], com.example.dto.Post@1de2481b[id=2,title=blog1_text2,text=text2], com.example.dto.Post@72ebf3f0[id=3,title=blog1_text3,text=text3], com.example.dto.Post@60dc4c81[id=4,title=blog2_text1,text=text4], com.example.dto.Post@1f22dad5[id=5,title=blog2_text2,text=text5], com.example.dto.Post@294ce5eb[id=6,title=blog2_text3,text=text6], com.example.dto.Post@778abc7b[id=7,title=blog3_text1,text=text7], com.example.dto.Post@355c6c8d[id=8,title=blog4_text1,text=text8], com.example.dto.Post@46dab859[id=9,title=blog5_text1,text=text9]]]
+[2014/12/22 21:35:11] [TestExecutor          ] [INFO ] com.example.dto.Blog@417cff66[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@10b41166[id=1,title=blog1_text1,text=text1], com.example.dto.Post@1de2481b[id=2,title=blog1_text2,text=text2], com.example.dto.Post@72ebf3f0[id=3,title=blog1_text3,text=text3], com.example.dto.Post@60dc4c81[id=4,title=blog2_text1,text=text4], com.example.dto.Post@1f22dad5[id=5,title=blog2_text2,text=text5], com.example.dto.Post@294ce5eb[id=6,title=blog2_text3,text=text6], com.example.dto.Post@778abc7b[id=7,title=blog3_text1,text=text7], com.example.dto.Post@355c6c8d[id=8,title=blog4_text1,text=text8], com.example.dto.Post@46dab859[id=9,title=blog5_text1,text=text9]]]
+[2014/12/22 21:35:11] [TestExecutor          ] [INFO ] com.example.dto.Blog@7563a320[id=3,title=blog3,author=author3,posts=[com.example.dto.Post@10b41166[id=1,title=blog1_text1,text=text1], com.example.dto.Post@1de2481b[id=2,title=blog1_text2,text=text2], com.example.dto.Post@72ebf3f0[id=3,title=blog1_text3,text=text3], com.example.dto.Post@60dc4c81[id=4,title=blog2_text1,text=text4], com.example.dto.Post@1f22dad5[id=5,title=blog2_text2,text=text5], com.example.dto.Post@294ce5eb[id=6,title=blog2_text3,text=text6], com.example.dto.Post@778abc7b[id=7,title=blog3_text1,text=text7], com.example.dto.Post@355c6c8d[id=8,title=blog4_text1,text=text8], com.example.dto.Post@46dab859[id=9,title=blog5_text1,text=text9]]]
+[2014/12/22 21:35:11] [TestExecutor          ] [INFO ] com.example.dto.Blog@606ac615[id=4,title=blog4,author=author4,posts=[com.example.dto.Post@10b41166[id=1,title=blog1_text1,text=text1], com.example.dto.Post@1de2481b[id=2,title=blog1_text2,text=text2], com.example.dto.Post@72ebf3f0[id=3,title=blog1_text3,text=text3], com.example.dto.Post@60dc4c81[id=4,title=blog2_text1,text=text4], com.example.dto.Post@1f22dad5[id=5,title=blog2_text2,text=text5], com.example.dto.Post@294ce5eb[id=6,title=blog2_text3,text=text6], com.example.dto.Post@778abc7b[id=7,title=blog3_text1,text=text7], com.example.dto.Post@355c6c8d[id=8,title=blog4_text1,text=text8], com.example.dto.Post@46dab859[id=9,title=blog5_text1,text=text9]]]
+[2014/12/22 21:35:11] [TestExecutor          ] [INFO ] com.example.dto.Blog@1f2be27[id=5,title=blog5,author=author5,posts=[com.example.dto.Post@10b41166[id=1,title=blog1_text1,text=text1], com.example.dto.Post@1de2481b[id=2,title=blog1_text2,text=text2], com.example.dto.Post@72ebf3f0[id=3,title=blog1_text3,text=text3], com.example.dto.Post@60dc4c81[id=4,title=blog2_text1,text=text4], com.example.dto.Post@1f22dad5[id=5,title=blog2_text2,text=text5], com.example.dto.Post@294ce5eb[id=6,title=blog2_text3,text=text6], com.example.dto.Post@778abc7b[id=7,title=blog3_text1,text=text7], com.example.dto.Post@355c6c8d[id=8,title=blog4_text1,text=text8], com.example.dto.Post@46dab859[id=9,title=blog5_text1,text=text9]]]
+[2014/12/22 21:35:11] [TestExecutor          ] [INFO ] elapsed time:[221] Average:221.0
+[2014/12/22 21:39:42] [TestExecutor          ] [INFO ] execute [MyBatis2]1n
+[2014/12/22 21:39:44] [TestExecutor          ] [INFO ] num=9
+[2014/12/22 21:39:44] [TestExecutor          ] [INFO ] com.example.dto.Blog@778abc7b[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@46dab859[id=1,title=blog1_text1,text=text1]]]
+[2014/12/22 21:39:44] [TestExecutor          ] [INFO ] com.example.dto.Blog@417cff66[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@7563a320[id=2,title=blog1_text2,text=text2]]]
+[2014/12/22 21:39:44] [TestExecutor          ] [INFO ] com.example.dto.Blog@606ac615[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@1f2be27[id=3,title=blog1_text3,text=text3]]]
+[2014/12/22 21:39:44] [TestExecutor          ] [INFO ] com.example.dto.Blog@67a1f370[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@39757337[id=4,title=blog2_text1,text=text4]]]
+[2014/12/22 21:39:44] [TestExecutor          ] [INFO ] com.example.dto.Blog@4ddf3d59[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@7b34c5ff[id=5,title=blog2_text2,text=text5]]]
+[2014/12/22 21:39:44] [TestExecutor          ] [INFO ] com.example.dto.Blog@45b3278a[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@74e8f8c5[id=6,title=blog2_text3,text=text6]]]
+[2014/12/22 21:39:44] [TestExecutor          ] [INFO ] com.example.dto.Blog@6b248979[id=3,title=blog3,author=author3,posts=[com.example.dto.Post@2bbd9de3[id=7,title=blog3_text1,text=text7]]]
+[2014/12/22 21:39:44] [TestExecutor          ] [INFO ] com.example.dto.Blog@2dc8b884[id=4,title=blog4,author=author4,posts=[com.example.dto.Post@54c9f997[id=8,title=blog4_text1,text=text8]]]
+[2014/12/22 21:39:44] [TestExecutor          ] [INFO ] com.example.dto.Blog@182153fe[id=5,title=blog5,author=author5,posts=[com.example.dto.Post@34115512[id=9,title=blog5_text1,text=text9]]]
+[2014/12/22 21:39:44] [TestExecutor          ] [INFO ] elapsed time:[1580] Average:1580.0
+[2014/12/22 21:39:44] [TestExecutor          ] [INFO ] execute [MyBatis3]1n
+[2014/12/22 21:39:44] [selectAll             ] [DEBUG] ==>  Preparing: SELECT * FROM BLOG 
+[2014/12/22 21:39:44] [selectAll             ] [DEBUG] ==> Parameters: 
+[2014/12/22 21:39:44] [getPost               ] [DEBUG] ====>  Preparing: SELECT * FROM POST 
+[2014/12/22 21:39:44] [getPost               ] [DEBUG] ====> Parameters: 
+[2014/12/22 21:39:44] [getPost               ] [DEBUG] <====      Total: 9
+[2014/12/22 21:39:44] [selectAll             ] [DEBUG] <==      Total: 5
+[2014/12/22 21:39:44] [TestExecutor          ] [INFO ] num=5
+[2014/12/22 21:39:44] [TestExecutor          ] [INFO ] com.example.dto.Blog@438346a3[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@5f9299f5[id=1,title=blog1_text1,text=text1], com.example.dto.Post@11b9d4d8[id=2,title=blog1_text2,text=text2], com.example.dto.Post@3f44b9ff[id=3,title=blog1_text3,text=text3], com.example.dto.Post@390f34cc[id=4,title=blog2_text1,text=text4], com.example.dto.Post@15535a58[id=5,title=blog2_text2,text=text5], com.example.dto.Post@13505258[id=6,title=blog2_text3,text=text6], com.example.dto.Post@7e4e194f[id=7,title=blog3_text1,text=text7], com.example.dto.Post@395fd251[id=8,title=blog4_text1,text=text8], com.example.dto.Post@41e8e144[id=9,title=blog5_text1,text=text9]]]
+[2014/12/22 21:39:44] [TestExecutor          ] [INFO ] com.example.dto.Blog@201d592a[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@5f9299f5[id=1,title=blog1_text1,text=text1], com.example.dto.Post@11b9d4d8[id=2,title=blog1_text2,text=text2], com.example.dto.Post@3f44b9ff[id=3,title=blog1_text3,text=text3], com.example.dto.Post@390f34cc[id=4,title=blog2_text1,text=text4], com.example.dto.Post@15535a58[id=5,title=blog2_text2,text=text5], com.example.dto.Post@13505258[id=6,title=blog2_text3,text=text6], com.example.dto.Post@7e4e194f[id=7,title=blog3_text1,text=text7], com.example.dto.Post@395fd251[id=8,title=blog4_text1,text=text8], com.example.dto.Post@41e8e144[id=9,title=blog5_text1,text=text9]]]
+[2014/12/22 21:39:44] [TestExecutor          ] [INFO ] com.example.dto.Blog@66c8e4de[id=3,title=blog3,author=author3,posts=[com.example.dto.Post@5f9299f5[id=1,title=blog1_text1,text=text1], com.example.dto.Post@11b9d4d8[id=2,title=blog1_text2,text=text2], com.example.dto.Post@3f44b9ff[id=3,title=blog1_text3,text=text3], com.example.dto.Post@390f34cc[id=4,title=blog2_text1,text=text4], com.example.dto.Post@15535a58[id=5,title=blog2_text2,text=text5], com.example.dto.Post@13505258[id=6,title=blog2_text3,text=text6], com.example.dto.Post@7e4e194f[id=7,title=blog3_text1,text=text7], com.example.dto.Post@395fd251[id=8,title=blog4_text1,text=text8], com.example.dto.Post@41e8e144[id=9,title=blog5_text1,text=text9]]]
+[2014/12/22 21:39:44] [TestExecutor          ] [INFO ] com.example.dto.Blog@f29df8a[id=4,title=blog4,author=author4,posts=[com.example.dto.Post@5f9299f5[id=1,title=blog1_text1,text=text1], com.example.dto.Post@11b9d4d8[id=2,title=blog1_text2,text=text2], com.example.dto.Post@3f44b9ff[id=3,title=blog1_text3,text=text3], com.example.dto.Post@390f34cc[id=4,title=blog2_text1,text=text4], com.example.dto.Post@15535a58[id=5,title=blog2_text2,text=text5], com.example.dto.Post@13505258[id=6,title=blog2_text3,text=text6], com.example.dto.Post@7e4e194f[id=7,title=blog3_text1,text=text7], com.example.dto.Post@395fd251[id=8,title=blog4_text1,text=text8], com.example.dto.Post@41e8e144[id=9,title=blog5_text1,text=text9]]]
+[2014/12/22 21:39:44] [TestExecutor          ] [INFO ] com.example.dto.Blog@612e4cd[id=5,title=blog5,author=author5,posts=[com.example.dto.Post@5f9299f5[id=1,title=blog1_text1,text=text1], com.example.dto.Post@11b9d4d8[id=2,title=blog1_text2,text=text2], com.example.dto.Post@3f44b9ff[id=3,title=blog1_text3,text=text3], com.example.dto.Post@390f34cc[id=4,title=blog2_text1,text=text4], com.example.dto.Post@15535a58[id=5,title=blog2_text2,text=text5], com.example.dto.Post@13505258[id=6,title=blog2_text3,text=text6], com.example.dto.Post@7e4e194f[id=7,title=blog3_text1,text=text7], com.example.dto.Post@395fd251[id=8,title=blog4_text1,text=text8], com.example.dto.Post@41e8e144[id=9,title=blog5_text1,text=text9]]]
+[2014/12/22 21:39:44] [TestExecutor          ] [INFO ] elapsed time:[349] Average:349.0
+[2014/12/22 21:40:33] [TestExecutor          ] [INFO ] execute [MyBatis2]1n
+[2014/12/22 21:40:34] [TestExecutor          ] [INFO ] num=9
+[2014/12/22 21:40:34] [TestExecutor          ] [INFO ] com.example.dto.Blog@4a690247[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@3882e4f3[id=1,title=blog1_text1,text=text1]]]
+[2014/12/22 21:40:34] [TestExecutor          ] [INFO ] com.example.dto.Blog@19852a81[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@75a9883d[id=2,title=blog1_text2,text=text2]]]
+[2014/12/22 21:40:34] [TestExecutor          ] [INFO ] com.example.dto.Blog@4d2f9924[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@6fef3212[id=3,title=blog1_text3,text=text3]]]
+[2014/12/22 21:40:34] [TestExecutor          ] [INFO ] com.example.dto.Blog@40c07527[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@1b4b74a7[id=4,title=blog2_text1,text=text4]]]
+[2014/12/22 21:40:34] [TestExecutor          ] [INFO ] com.example.dto.Blog@76d78df0[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@41a7c484[id=5,title=blog2_text2,text=text5]]]
+[2014/12/22 21:40:34] [TestExecutor          ] [INFO ] com.example.dto.Blog@6d56d7c8[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@6070c38c[id=6,title=blog2_text3,text=text6]]]
+[2014/12/22 21:40:34] [TestExecutor          ] [INFO ] com.example.dto.Blog@b364dcb[id=3,title=blog3,author=author3,posts=[com.example.dto.Post@1a2d502d[id=7,title=blog3_text1,text=text7]]]
+[2014/12/22 21:40:34] [TestExecutor          ] [INFO ] com.example.dto.Blog@14eac7c8[id=4,title=blog4,author=author4,posts=[com.example.dto.Post@41e22632[id=8,title=blog4_text1,text=text8]]]
+[2014/12/22 21:40:34] [TestExecutor          ] [INFO ] com.example.dto.Blog@6639be68[id=5,title=blog5,author=author5,posts=[com.example.dto.Post@5903d246[id=9,title=blog5_text1,text=text9]]]
+[2014/12/22 21:40:34] [TestExecutor          ] [INFO ] elapsed time:[587] Average:587.0
+[2014/12/22 21:40:34] [TestExecutor          ] [INFO ] execute [MyBatis3]1n
+[2014/12/22 21:40:34] [selectAll             ] [DEBUG] ==>  Preparing: SELECT * FROM BLOG 
+[2014/12/22 21:40:34] [selectAll             ] [DEBUG] ==> Parameters: 
+[2014/12/22 21:40:34] [getPost               ] [DEBUG] ====>  Preparing: SELECT * FROM POST WHERE BLOG_ID=? 
+[2014/12/22 21:40:34] [getPost               ] [DEBUG] ====> Parameters: 1(Integer)
+[2014/12/22 21:40:34] [getPost               ] [DEBUG] <====      Total: 3
+[2014/12/22 21:40:34] [getPost               ] [DEBUG] ====>  Preparing: SELECT * FROM POST WHERE BLOG_ID=? 
+[2014/12/22 21:40:34] [getPost               ] [DEBUG] ====> Parameters: 2(Integer)
+[2014/12/22 21:40:34] [getPost               ] [DEBUG] <====      Total: 3
+[2014/12/22 21:40:34] [getPost               ] [DEBUG] ====>  Preparing: SELECT * FROM POST WHERE BLOG_ID=? 
+[2014/12/22 21:40:34] [getPost               ] [DEBUG] ====> Parameters: 3(Integer)
+[2014/12/22 21:40:34] [getPost               ] [DEBUG] <====      Total: 1
+[2014/12/22 21:40:34] [getPost               ] [DEBUG] ====>  Preparing: SELECT * FROM POST WHERE BLOG_ID=? 
+[2014/12/22 21:40:34] [getPost               ] [DEBUG] ====> Parameters: 4(Integer)
+[2014/12/22 21:40:34] [getPost               ] [DEBUG] <====      Total: 1
+[2014/12/22 21:40:34] [getPost               ] [DEBUG] ====>  Preparing: SELECT * FROM POST WHERE BLOG_ID=? 
+[2014/12/22 21:40:34] [getPost               ] [DEBUG] ====> Parameters: 5(Integer)
+[2014/12/22 21:40:34] [getPost               ] [DEBUG] <====      Total: 1
+[2014/12/22 21:40:34] [selectAll             ] [DEBUG] <==      Total: 5
+[2014/12/22 21:40:34] [TestExecutor          ] [INFO ] num=5
+[2014/12/22 21:40:34] [TestExecutor          ] [INFO ] com.example.dto.Blog@63956391[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@64bbf7aa[id=1,title=blog1_text1,text=text1], com.example.dto.Post@7080ed90[id=2,title=blog1_text2,text=text2], com.example.dto.Post@206cc2a4[id=3,title=blog1_text3,text=text3]]]
+[2014/12/22 21:40:34] [TestExecutor          ] [INFO ] com.example.dto.Blog@445ead9d[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@23d8417c[id=4,title=blog2_text1,text=text4], com.example.dto.Post@4ab34646[id=5,title=blog2_text2,text=text5], com.example.dto.Post@3fcac3fa[id=6,title=blog2_text3,text=text6]]]
+[2014/12/22 21:40:34] [TestExecutor          ] [INFO ] com.example.dto.Blog@190872ce[id=3,title=blog3,author=author3,posts=[com.example.dto.Post@79a93f38[id=7,title=blog3_text1,text=text7]]]
+[2014/12/22 21:40:34] [TestExecutor          ] [INFO ] com.example.dto.Blog@5675b3ee[id=4,title=blog4,author=author4,posts=[com.example.dto.Post@4977fa9a[id=8,title=blog4_text1,text=text8]]]
+[2014/12/22 21:40:34] [TestExecutor          ] [INFO ] com.example.dto.Blog@63e5ba24[id=5,title=blog5,author=author5,posts=[com.example.dto.Post@7f1fc4b8[id=9,title=blog5_text1,text=text9]]]
+[2014/12/22 21:40:34] [TestExecutor          ] [INFO ] elapsed time:[138] Average:138.0
+[2014/12/22 21:43:08] [TestExecutor          ] [INFO ] execute [MyBatis2]1n
+[2014/12/22 21:43:08] [TestExecutor          ] [INFO ] num=9
+[2014/12/22 21:43:08] [TestExecutor          ] [INFO ] com.example.dto.Blog@48c38157[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@63a6b16f[id=1,title=blog1_text1,text=text1]]]
+[2014/12/22 21:43:08] [TestExecutor          ] [INFO ] com.example.dto.Blog@54cb2185[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@6405ce40[id=2,title=blog1_text2,text=text2]]]
+[2014/12/22 21:43:08] [TestExecutor          ] [INFO ] com.example.dto.Blog@3927ff0d[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@70d9cbcb[id=3,title=blog1_text3,text=text3]]]
+[2014/12/22 21:43:08] [TestExecutor          ] [INFO ] com.example.dto.Blog@6ad2b64e[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@2fbef1ac[id=4,title=blog2_text1,text=text4]]]
+[2014/12/22 21:43:08] [TestExecutor          ] [INFO ] com.example.dto.Blog@20ec6bb1[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@192425a[id=5,title=blog2_text2,text=text5]]]
+[2014/12/22 21:43:08] [TestExecutor          ] [INFO ] com.example.dto.Blog@29422384[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@3529c445[id=6,title=blog2_text3,text=text6]]]
+[2014/12/22 21:43:08] [TestExecutor          ] [INFO ] com.example.dto.Blog@4914a947[id=3,title=blog3,author=author3,posts=[com.example.dto.Post@6b7599cc[id=7,title=blog3_text1,text=text7]]]
+[2014/12/22 21:43:08] [TestExecutor          ] [INFO ] com.example.dto.Blog@75c45731[id=4,title=blog4,author=author4,posts=[com.example.dto.Post@2d388e5e[id=8,title=blog4_text1,text=text8]]]
+[2014/12/22 21:43:08] [TestExecutor          ] [INFO ] com.example.dto.Blog@5c0ad483[id=5,title=blog5,author=author5,posts=[com.example.dto.Post@4b0613aa[id=9,title=blog5_text1,text=text9]]]
+[2014/12/22 21:43:08] [TestExecutor          ] [INFO ] elapsed time:[429] Average:429.0
+[2014/12/22 21:43:08] [TestExecutor          ] [INFO ] execute [MyBatis3]1n
+[2014/12/22 21:43:09] [selectAll             ] [DEBUG] ==>  Preparing: SELECT * FROM BLOG 
+[2014/12/22 21:43:09] [selectAll             ] [DEBUG] ==> Parameters: 
+[2014/12/22 21:43:09] [selectAll             ] [DEBUG] <==      Total: 5
+[2014/12/22 21:43:09] [TestExecutor          ] [INFO ] num=5
+[2014/12/22 21:43:09] [TestExecutor          ] [INFO ] com.example.dto.Blog@355c6c8d[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@46dab859[id=1,title=blog1,text=<null>]]]
+[2014/12/22 21:43:09] [TestExecutor          ] [INFO ] com.example.dto.Blog@417cff66[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@7563a320[id=2,title=blog2,text=<null>]]]
+[2014/12/22 21:43:09] [TestExecutor          ] [INFO ] com.example.dto.Blog@606ac615[id=3,title=blog3,author=author3,posts=[com.example.dto.Post@1f2be27[id=3,title=blog3,text=<null>]]]
+[2014/12/22 21:43:09] [TestExecutor          ] [INFO ] com.example.dto.Blog@67a1f370[id=4,title=blog4,author=author4,posts=[com.example.dto.Post@39757337[id=4,title=blog4,text=<null>]]]
+[2014/12/22 21:43:09] [TestExecutor          ] [INFO ] com.example.dto.Blog@4ddf3d59[id=5,title=blog5,author=author5,posts=[com.example.dto.Post@7b34c5ff[id=5,title=blog5,text=<null>]]]
+[2014/12/22 21:43:09] [TestExecutor          ] [INFO ] elapsed time:[149] Average:149.0
+[2014/12/22 21:45:04] [TestExecutor          ] [INFO ] execute [MyBatis2]1n
+[2014/12/22 21:45:05] [TestExecutor          ] [INFO ] num=9
+[2014/12/22 21:45:05] [TestExecutor          ] [INFO ] com.example.dto.Blog@3927ff0d[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@6ad2b64e[id=1,title=blog1_text1,text=text1]]]
+[2014/12/22 21:45:05] [TestExecutor          ] [INFO ] com.example.dto.Blog@2fbef1ac[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@20ec6bb1[id=2,title=blog1_text2,text=text2]]]
+[2014/12/22 21:45:05] [TestExecutor          ] [INFO ] com.example.dto.Blog@192425a[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@29422384[id=3,title=blog1_text3,text=text3]]]
+[2014/12/22 21:45:05] [TestExecutor          ] [INFO ] com.example.dto.Blog@3529c445[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@4914a947[id=4,title=blog2_text1,text=text4]]]
+[2014/12/22 21:45:05] [TestExecutor          ] [INFO ] com.example.dto.Blog@6b7599cc[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@75c45731[id=5,title=blog2_text2,text=text5]]]
+[2014/12/22 21:45:05] [TestExecutor          ] [INFO ] com.example.dto.Blog@2d388e5e[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@5c0ad483[id=6,title=blog2_text3,text=text6]]]
+[2014/12/22 21:45:05] [TestExecutor          ] [INFO ] com.example.dto.Blog@4b0613aa[id=3,title=blog3,author=author3,posts=[com.example.dto.Post@7bf52460[id=7,title=blog3_text1,text=text7]]]
+[2014/12/22 21:45:05] [TestExecutor          ] [INFO ] com.example.dto.Blog@1b275a34[id=4,title=blog4,author=author4,posts=[com.example.dto.Post@349319d9[id=8,title=blog4_text1,text=text8]]]
+[2014/12/22 21:45:05] [TestExecutor          ] [INFO ] com.example.dto.Blog@25861086[id=5,title=blog5,author=author5,posts=[com.example.dto.Post@4a6e0a9[id=9,title=blog5_text1,text=text9]]]
+[2014/12/22 21:45:05] [TestExecutor          ] [INFO ] elapsed time:[463] Average:463.0
+[2014/12/22 21:45:05] [TestExecutor          ] [INFO ] execute [MyBatis3]1n
+[2014/12/22 21:45:05] [selectAll             ] [DEBUG] ==>  Preparing: SELECT * FROM BLOG 
+[2014/12/22 21:45:05] [selectAll             ] [DEBUG] ==> Parameters: 
+[2014/12/22 21:45:05] [selectAll             ] [DEBUG] <==      Total: 5
+[2014/12/22 21:45:05] [TestExecutor          ] [INFO ] num=5
+[2014/12/22 21:45:05] [TestExecutor          ] [INFO ] com.example.dto.Blog@1f2be27[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@67a1f370[id=1,title=blog1,text=<null>]]]
+[2014/12/22 21:45:05] [TestExecutor          ] [INFO ] com.example.dto.Blog@39757337[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@4ddf3d59[id=2,title=blog2,text=<null>]]]
+[2014/12/22 21:45:05] [TestExecutor          ] [INFO ] com.example.dto.Blog@7b34c5ff[id=3,title=blog3,author=author3,posts=[com.example.dto.Post@45b3278a[id=3,title=blog3,text=<null>]]]
+[2014/12/22 21:45:05] [TestExecutor          ] [INFO ] com.example.dto.Blog@74e8f8c5[id=4,title=blog4,author=author4,posts=[com.example.dto.Post@6b248979[id=4,title=blog4,text=<null>]]]
+[2014/12/22 21:45:05] [TestExecutor          ] [INFO ] com.example.dto.Blog@2bbd9de3[id=5,title=blog5,author=author5,posts=[com.example.dto.Post@2dc8b884[id=5,title=blog5,text=<null>]]]
+[2014/12/22 21:45:05] [TestExecutor          ] [INFO ] elapsed time:[169] Average:169.0
+[2014/12/22 21:46:33] [TestExecutor          ] [INFO ] execute [MyBatis2]1n
+[2014/12/22 21:46:33] [TestExecutor          ] [INFO ] num=9
+[2014/12/22 21:46:33] [TestExecutor          ] [INFO ] com.example.dto.Blog@6405ce40[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@70d9cbcb[id=1,title=blog1_text1,text=text1]]]
+[2014/12/22 21:46:33] [TestExecutor          ] [INFO ] com.example.dto.Blog@6ad2b64e[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@2fbef1ac[id=2,title=blog1_text2,text=text2]]]
+[2014/12/22 21:46:33] [TestExecutor          ] [INFO ] com.example.dto.Blog@20ec6bb1[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@192425a[id=3,title=blog1_text3,text=text3]]]
+[2014/12/22 21:46:33] [TestExecutor          ] [INFO ] com.example.dto.Blog@29422384[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@3529c445[id=4,title=blog2_text1,text=text4]]]
+[2014/12/22 21:46:33] [TestExecutor          ] [INFO ] com.example.dto.Blog@4914a947[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@6b7599cc[id=5,title=blog2_text2,text=text5]]]
+[2014/12/22 21:46:33] [TestExecutor          ] [INFO ] com.example.dto.Blog@75c45731[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@2d388e5e[id=6,title=blog2_text3,text=text6]]]
+[2014/12/22 21:46:33] [TestExecutor          ] [INFO ] com.example.dto.Blog@5c0ad483[id=3,title=blog3,author=author3,posts=[com.example.dto.Post@4b0613aa[id=7,title=blog3_text1,text=text7]]]
+[2014/12/22 21:46:33] [TestExecutor          ] [INFO ] com.example.dto.Blog@7bf52460[id=4,title=blog4,author=author4,posts=[com.example.dto.Post@1b275a34[id=8,title=blog4_text1,text=text8]]]
+[2014/12/22 21:46:33] [TestExecutor          ] [INFO ] com.example.dto.Blog@349319d9[id=5,title=blog5,author=author5,posts=[com.example.dto.Post@25861086[id=9,title=blog5_text1,text=text9]]]
+[2014/12/22 21:46:33] [TestExecutor          ] [INFO ] elapsed time:[371] Average:371.0
+[2014/12/22 21:46:33] [TestExecutor          ] [INFO ] execute [MyBatis3]1n
+[2014/12/22 21:46:33] [selectAll             ] [DEBUG] ==>  Preparing: SELECT * FROM BLOG 
+[2014/12/22 21:46:33] [selectAll             ] [DEBUG] ==> Parameters: 
+[2014/12/22 21:46:33] [selectAll             ] [DEBUG] <==      Total: 5
+[2014/12/22 21:46:33] [TestExecutor          ] [INFO ] num=5
+[2014/12/22 21:46:33] [TestExecutor          ] [INFO ] com.example.dto.Blog@606ac615[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@1f2be27[id=1,title=blog1,text=<null>]]]
+[2014/12/22 21:46:33] [TestExecutor          ] [INFO ] com.example.dto.Blog@67a1f370[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@39757337[id=2,title=blog2,text=<null>]]]
+[2014/12/22 21:46:33] [TestExecutor          ] [INFO ] com.example.dto.Blog@4ddf3d59[id=3,title=blog3,author=author3,posts=[com.example.dto.Post@7b34c5ff[id=3,title=blog3,text=<null>]]]
+[2014/12/22 21:46:33] [TestExecutor          ] [INFO ] com.example.dto.Blog@45b3278a[id=4,title=blog4,author=author4,posts=[com.example.dto.Post@74e8f8c5[id=4,title=blog4,text=<null>]]]
+[2014/12/22 21:46:33] [TestExecutor          ] [INFO ] com.example.dto.Blog@6b248979[id=5,title=blog5,author=author5,posts=[com.example.dto.Post@2bbd9de3[id=5,title=blog5,text=<null>]]]
+[2014/12/22 21:46:33] [TestExecutor          ] [INFO ] elapsed time:[54] Average:54.0
+[2014/12/22 21:47:54] [TestExecutor          ] [INFO ] execute [MyBatis2]1n
+[2014/12/22 21:47:55] [TestExecutor          ] [INFO ] num=9
+[2014/12/22 21:47:55] [TestExecutor          ] [INFO ] com.example.dto.Blog@5e4b2b75[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@7cd1a1ab[id=1,title=blog1_text1,text=text1]]]
+[2014/12/22 21:47:55] [TestExecutor          ] [INFO ] com.example.dto.Blog@26cd2192[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@65570c24[id=2,title=blog1_text2,text=text2]]]
+[2014/12/22 21:47:55] [TestExecutor          ] [INFO ] com.example.dto.Blog@35de4376[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@131f139b[id=3,title=blog1_text3,text=text3]]]
+[2014/12/22 21:47:55] [TestExecutor          ] [INFO ] com.example.dto.Blog@5d402eeb[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@20c87621[id=4,title=blog2_text1,text=text4]]]
+[2014/12/22 21:47:55] [TestExecutor          ] [INFO ] com.example.dto.Blog@48c38157[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@1b609c13[id=5,title=blog2_text2,text=text5]]]
+[2014/12/22 21:47:55] [TestExecutor          ] [INFO ] com.example.dto.Blog@63a6b16f[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@54cb2185[id=6,title=blog2_text3,text=text6]]]
+[2014/12/22 21:47:55] [TestExecutor          ] [INFO ] com.example.dto.Blog@6405ce40[id=3,title=blog3,author=author3,posts=[com.example.dto.Post@3927ff0d[id=7,title=blog3_text1,text=text7]]]
+[2014/12/22 21:47:55] [TestExecutor          ] [INFO ] com.example.dto.Blog@70d9cbcb[id=4,title=blog4,author=author4,posts=[com.example.dto.Post@6ad2b64e[id=8,title=blog4_text1,text=text8]]]
+[2014/12/22 21:47:55] [TestExecutor          ] [INFO ] com.example.dto.Blog@2fbef1ac[id=5,title=blog5,author=author5,posts=[com.example.dto.Post@20ec6bb1[id=9,title=blog5_text1,text=text9]]]
+[2014/12/22 21:47:55] [TestExecutor          ] [INFO ] elapsed time:[424] Average:424.0
+[2014/12/22 21:47:55] [TestExecutor          ] [INFO ] execute [MyBatis3]1n
+[2014/12/22 21:47:55] [selectAll             ] [DEBUG] ==>  Preparing: SELECT b.id as id ,b.title as title ,b.author as author ,p.id as pid ,p.title as ptitle ,p.text as ptext FROM BLOG b LEFT OUTER JOIN POST p ON b.id = p.blog_id 
+[2014/12/22 21:47:55] [selectAll             ] [DEBUG] ==> Parameters: 
+[2014/12/22 21:47:55] [selectAll             ] [DEBUG] <==      Total: 9
+[2014/12/22 21:47:55] [TestExecutor          ] [INFO ] num=5
+[2014/12/22 21:47:55] [TestExecutor          ] [INFO ] com.example.dto.Blog@72ebf3f0[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@60dc4c81[id=1,title=blog1_text1,text=text1], com.example.dto.Post@1f22dad5[id=2,title=blog1_text2,text=text2], com.example.dto.Post@294ce5eb[id=3,title=blog1_text3,text=text3]]]
+[2014/12/22 21:47:55] [TestExecutor          ] [INFO ] com.example.dto.Blog@778abc7b[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@355c6c8d[id=4,title=blog2_text1,text=text4], com.example.dto.Post@46dab859[id=5,title=blog2_text2,text=text5], com.example.dto.Post@417cff66[id=6,title=blog2_text3,text=text6]]]
+[2014/12/22 21:47:55] [TestExecutor          ] [INFO ] com.example.dto.Blog@7563a320[id=3,title=blog3,author=author3,posts=[com.example.dto.Post@606ac615[id=7,title=blog3_text1,text=text7]]]
+[2014/12/22 21:47:55] [TestExecutor          ] [INFO ] com.example.dto.Blog@1f2be27[id=4,title=blog4,author=author4,posts=[com.example.dto.Post@67a1f370[id=8,title=blog4_text1,text=text8]]]
+[2014/12/22 21:47:55] [TestExecutor          ] [INFO ] com.example.dto.Blog@39757337[id=5,title=blog5,author=author5,posts=[com.example.dto.Post@4ddf3d59[id=9,title=blog5_text1,text=text9]]]
+[2014/12/22 21:47:55] [TestExecutor          ] [INFO ] elapsed time:[55] Average:55.0
+[2014/12/22 21:48:47] [TestExecutor          ] [INFO ] execute [MyBatis2]1n
+[2014/12/22 21:48:47] [TestExecutor          ] [INFO ] num=9
+[2014/12/22 21:48:47] [TestExecutor          ] [INFO ] com.example.dto.Blog@26cd2192[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@35de4376[id=1,title=blog1_text1,text=text1]]]
+[2014/12/22 21:48:47] [TestExecutor          ] [INFO ] com.example.dto.Blog@131f139b[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@5d402eeb[id=2,title=blog1_text2,text=text2]]]
+[2014/12/22 21:48:47] [TestExecutor          ] [INFO ] com.example.dto.Blog@20c87621[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@48c38157[id=3,title=blog1_text3,text=text3]]]
+[2014/12/22 21:48:47] [TestExecutor          ] [INFO ] com.example.dto.Blog@1b609c13[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@63a6b16f[id=4,title=blog2_text1,text=text4]]]
+[2014/12/22 21:48:47] [TestExecutor          ] [INFO ] com.example.dto.Blog@54cb2185[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@6405ce40[id=5,title=blog2_text2,text=text5]]]
+[2014/12/22 21:48:47] [TestExecutor          ] [INFO ] com.example.dto.Blog@3927ff0d[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@70d9cbcb[id=6,title=blog2_text3,text=text6]]]
+[2014/12/22 21:48:47] [TestExecutor          ] [INFO ] com.example.dto.Blog@6ad2b64e[id=3,title=blog3,author=author3,posts=[com.example.dto.Post@2fbef1ac[id=7,title=blog3_text1,text=text7]]]
+[2014/12/22 21:48:47] [TestExecutor          ] [INFO ] com.example.dto.Blog@20ec6bb1[id=4,title=blog4,author=author4,posts=[com.example.dto.Post@192425a[id=8,title=blog4_text1,text=text8]]]
+[2014/12/22 21:48:47] [TestExecutor          ] [INFO ] com.example.dto.Blog@29422384[id=5,title=blog5,author=author5,posts=[com.example.dto.Post@3529c445[id=9,title=blog5_text1,text=text9]]]
+[2014/12/22 21:48:47] [TestExecutor          ] [INFO ] elapsed time:[339] Average:339.0
+[2014/12/22 21:48:47] [TestExecutor          ] [INFO ] execute [MyBatis3]1n
+[2014/12/22 21:48:47] [selectAll             ] [DEBUG] ==>  Preparing: SELECT b.id as id ,b.title as title ,b.author as author ,p.id as pid ,p.title as ptitle ,p.text as ptext FROM BLOG b LEFT OUTER JOIN POST p ON b.id = p.blog_id 
+[2014/12/22 21:48:47] [selectAll             ] [DEBUG] ==> Parameters: 
+[2014/12/22 21:48:47] [selectAll             ] [DEBUG] <==      Total: 9
+[2014/12/22 21:48:47] [TestExecutor          ] [INFO ] num=5
+[2014/12/22 21:48:47] [TestExecutor          ] [INFO ] com.example.dto.Blog@294ce5eb[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@778abc7b[id=1,title=blog1_text1,text=text1], com.example.dto.Post@355c6c8d[id=2,title=blog1_text2,text=text2], com.example.dto.Post@46dab859[id=3,title=blog1_text3,text=text3]]]
+[2014/12/22 21:48:47] [TestExecutor          ] [INFO ] com.example.dto.Blog@417cff66[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@7563a320[id=4,title=blog2_text1,text=text4], com.example.dto.Post@606ac615[id=5,title=blog2_text2,text=text5], com.example.dto.Post@1f2be27[id=6,title=blog2_text3,text=text6]]]
+[2014/12/22 21:48:47] [TestExecutor          ] [INFO ] com.example.dto.Blog@67a1f370[id=3,title=blog3,author=author3,posts=[com.example.dto.Post@39757337[id=7,title=blog3_text1,text=text7]]]
+[2014/12/22 21:48:47] [TestExecutor          ] [INFO ] com.example.dto.Blog@4ddf3d59[id=4,title=blog4,author=author4,posts=[com.example.dto.Post@7b34c5ff[id=8,title=blog4_text1,text=text8]]]
+[2014/12/22 21:48:47] [TestExecutor          ] [INFO ] com.example.dto.Blog@45b3278a[id=5,title=blog5,author=author5,posts=[com.example.dto.Post@74e8f8c5[id=9,title=blog5_text1,text=text9]]]
+[2014/12/22 21:48:47] [TestExecutor          ] [INFO ] elapsed time:[104] Average:104.0
+[2014/12/22 21:50:16] [TestExecutor          ] [INFO ] execute [MyBatis2]1n
+[2014/12/22 21:50:17] [TestExecutor          ] [INFO ] num=9
+[2014/12/22 21:50:17] [TestExecutor          ] [INFO ] com.example.dto.Blog@3529c445[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@6b7599cc[id=1,title=blog1_text1,text=text1]]]
+[2014/12/22 21:50:17] [TestExecutor          ] [INFO ] com.example.dto.Blog@75c45731[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@2d388e5e[id=2,title=blog1_text2,text=text2]]]
+[2014/12/22 21:50:17] [TestExecutor          ] [INFO ] com.example.dto.Blog@5c0ad483[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@4b0613aa[id=3,title=blog1_text3,text=text3]]]
+[2014/12/22 21:50:17] [TestExecutor          ] [INFO ] com.example.dto.Blog@7bf52460[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@1b275a34[id=4,title=blog2_text1,text=text4]]]
+[2014/12/22 21:50:17] [TestExecutor          ] [INFO ] com.example.dto.Blog@349319d9[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@25861086[id=5,title=blog2_text2,text=text5]]]
+[2014/12/22 21:50:17] [TestExecutor          ] [INFO ] com.example.dto.Blog@4a6e0a9[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@67e779a1[id=6,title=blog2_text3,text=text6]]]
+[2014/12/22 21:50:17] [TestExecutor          ] [INFO ] com.example.dto.Blog@de26e52[id=3,title=blog3,author=author3,posts=[com.example.dto.Post@cb8d09d[id=7,title=blog3_text1,text=text7]]]
+[2014/12/22 21:50:17] [TestExecutor          ] [INFO ] com.example.dto.Blog@3987f9f1[id=4,title=blog4,author=author4,posts=[com.example.dto.Post@e2a5ab9[id=8,title=blog4_text1,text=text8]]]
+[2014/12/22 21:50:17] [TestExecutor          ] [INFO ] com.example.dto.Blog@7eaa2ef2[id=5,title=blog5,author=author5,posts=[com.example.dto.Post@56f052d5[id=9,title=blog5_text1,text=text9]]]
+[2014/12/22 21:50:17] [TestExecutor          ] [INFO ] elapsed time:[530] Average:530.0
+[2014/12/22 21:50:17] [TestExecutor          ] [INFO ] execute [MyBatis3]1n
+[2014/12/22 21:50:17] [selectAll             ] [DEBUG] ==>  Preparing: SELECT b.id as id ,b.title as title ,b.author as author ,p.id as pid ,p.title as ptitle ,p.text as ptext FROM BLOG b LEFT OUTER JOIN POST p ON b.id = p.blog_id 
+[2014/12/22 21:50:17] [selectAll             ] [DEBUG] ==> Parameters: 
+[2014/12/22 21:50:17] [selectAll             ] [DEBUG] <==      Total: 9
+[2014/12/22 21:50:17] [TestExecutor          ] [INFO ] num=5
+[2014/12/22 21:50:17] [TestExecutor          ] [INFO ] com.example.dto.Blog@182153fe[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@34115512[id=1,title=blog1_text1,text=text1], com.example.dto.Post@5de82b72[id=2,title=blog1_text2,text=text2], com.example.dto.Post@357c7988[id=3,title=blog1_text3,text=text3]]]
+[2014/12/22 21:50:17] [TestExecutor          ] [INFO ] com.example.dto.Blog@7f0eeb26[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@2c704cf5[id=4,title=blog2_text1,text=text4], com.example.dto.Post@cc7f9e[id=5,title=blog2_text2,text=text5], com.example.dto.Post@71ce5e7a[id=6,title=blog2_text3,text=text6]]]
+[2014/12/22 21:50:17] [TestExecutor          ] [INFO ] com.example.dto.Blog@239cd5f5[id=3,title=blog3,author=author3,posts=[com.example.dto.Post@da2da17[id=7,title=blog3_text1,text=text7]]]
+[2014/12/22 21:50:17] [TestExecutor          ] [INFO ] com.example.dto.Blog@3e9c22ff[id=4,title=blog4,author=author4,posts=[com.example.dto.Post@7cbdb375[id=8,title=blog4_text1,text=text8]]]
+[2014/12/22 21:50:17] [TestExecutor          ] [INFO ] com.example.dto.Blog@a51064e[id=5,title=blog5,author=author5,posts=[com.example.dto.Post@4d74f02c[id=9,title=blog5_text1,text=text9]]]
+[2014/12/22 21:50:17] [TestExecutor          ] [INFO ] elapsed time:[151] Average:151.0
+[2014/12/22 21:51:24] [TestExecutor          ] [INFO ] execute [MyBatis2]1n
+[2014/12/22 21:51:25] [TestExecutor          ] [INFO ] num=5
+[2014/12/22 21:51:25] [TestExecutor          ] [INFO ] com.example.dto.Blog@61e090ee[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@19123eb0[id=1,title=blog1_text1,text=text1], com.example.dto.Post@7cd1a1ab[id=2,title=blog1_text2,text=text2], com.example.dto.Post@26cd2192[id=3,title=blog1_text3,text=text3]]]
+[2014/12/22 21:51:25] [TestExecutor          ] [INFO ] com.example.dto.Blog@65570c24[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@35de4376[id=4,title=blog2_text1,text=text4], com.example.dto.Post@131f139b[id=5,title=blog2_text2,text=text5], com.example.dto.Post@5d402eeb[id=6,title=blog2_text3,text=text6]]]
+[2014/12/22 21:51:25] [TestExecutor          ] [INFO ] com.example.dto.Blog@20c87621[id=3,title=blog3,author=author3,posts=[com.example.dto.Post@48c38157[id=7,title=blog3_text1,text=text7]]]
+[2014/12/22 21:51:25] [TestExecutor          ] [INFO ] com.example.dto.Blog@1b609c13[id=4,title=blog4,author=author4,posts=[com.example.dto.Post@63a6b16f[id=8,title=blog4_text1,text=text8]]]
+[2014/12/22 21:51:25] [TestExecutor          ] [INFO ] com.example.dto.Blog@54cb2185[id=5,title=blog5,author=author5,posts=[com.example.dto.Post@6405ce40[id=9,title=blog5_text1,text=text9]]]
+[2014/12/22 21:51:25] [TestExecutor          ] [INFO ] elapsed time:[441] Average:441.0
+[2014/12/22 21:51:25] [TestExecutor          ] [INFO ] execute [MyBatis3]1n
+[2014/12/22 21:51:25] [selectAll             ] [DEBUG] ==>  Preparing: SELECT b.id as id ,b.title as title ,b.author as author ,p.id as pid ,p.title as ptitle ,p.text as ptext FROM BLOG b LEFT OUTER JOIN POST p ON b.id = p.blog_id 
+[2014/12/22 21:51:25] [selectAll             ] [DEBUG] ==> Parameters: 
+[2014/12/22 21:51:25] [selectAll             ] [DEBUG] <==      Total: 9
+[2014/12/22 21:51:25] [TestExecutor          ] [INFO ] num=5
+[2014/12/22 21:51:25] [TestExecutor          ] [INFO ] com.example.dto.Blog@1e9af0b1[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@4e300429[id=1,title=blog1_text1,text=text1], com.example.dto.Post@326147d9[id=2,title=blog1_text2,text=text2], com.example.dto.Post@10b41166[id=3,title=blog1_text3,text=text3]]]
+[2014/12/22 21:51:25] [TestExecutor          ] [INFO ] com.example.dto.Blog@1de2481b[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@72ebf3f0[id=4,title=blog2_text1,text=text4], com.example.dto.Post@60dc4c81[id=5,title=blog2_text2,text=text5], com.example.dto.Post@1f22dad5[id=6,title=blog2_text3,text=text6]]]
+[2014/12/22 21:51:25] [TestExecutor          ] [INFO ] com.example.dto.Blog@294ce5eb[id=3,title=blog3,author=author3,posts=[com.example.dto.Post@778abc7b[id=7,title=blog3_text1,text=text7]]]
+[2014/12/22 21:51:25] [TestExecutor          ] [INFO ] com.example.dto.Blog@355c6c8d[id=4,title=blog4,author=author4,posts=[com.example.dto.Post@46dab859[id=8,title=blog4_text1,text=text8]]]
+[2014/12/22 21:51:25] [TestExecutor          ] [INFO ] com.example.dto.Blog@417cff66[id=5,title=blog5,author=author5,posts=[com.example.dto.Post@7563a320[id=9,title=blog5_text1,text=text9]]]
+[2014/12/22 21:51:25] [TestExecutor          ] [INFO ] elapsed time:[125] Average:125.0
+[2014/12/22 22:00:11] [TestExecutor          ] [INFO ] execute [MyBatis2]1n
+[2014/12/22 22:00:13] [TestExecutor          ] [INFO ] num=5
+[2014/12/22 22:00:13] [TestExecutor          ] [INFO ] com.example.dto.Blog@752d7d02[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@4d3af084[id=1,title=blog1_text1,text=text1], com.example.dto.Post@588491b8[id=2,title=blog1_text2,text=text2], com.example.dto.Post@677af46e[id=3,title=blog1_text3,text=text3]]]
+[2014/12/22 22:00:13] [TestExecutor          ] [INFO ] com.example.dto.Blog@394596d5[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@7b19753[id=4,title=blog2_text1,text=text4], com.example.dto.Post@1c45ce17[id=5,title=blog2_text2,text=text5], com.example.dto.Post@2add5681[id=6,title=blog2_text3,text=text6]]]
+[2014/12/22 22:00:13] [TestExecutor          ] [INFO ] com.example.dto.Blog@295a4523[id=3,title=blog3,author=author3,posts=[com.example.dto.Post@6571120a[id=7,title=blog3_text1,text=text7]]]
+[2014/12/22 22:00:13] [TestExecutor          ] [INFO ] com.example.dto.Blog@6257828d[id=4,title=blog4,author=author4,posts=[com.example.dto.Post@5f3c296b[id=8,title=blog4_text1,text=text8]]]
+[2014/12/22 22:00:13] [TestExecutor          ] [INFO ] com.example.dto.Blog@66c360a5[id=5,title=blog5,author=author5,posts=[com.example.dto.Post@24fe2558[id=9,title=blog5_text1,text=text9]]]
+[2014/12/22 22:00:13] [TestExecutor          ] [INFO ] elapsed time:[1630] Average:1630.0
+[2014/12/22 22:00:13] [TestExecutor          ] [INFO ] execute [MyBatis3]1n
+[2014/12/22 22:00:14] [selectAll             ] [DEBUG] ==>  Preparing: SELECT b.id as id ,b.title as title ,b.author as author ,p.id as pid ,p.title as ptitle ,p.text as ptext FROM BLOG b LEFT OUTER JOIN POST p ON b.id = p.blog_id 
+[2014/12/22 22:00:14] [selectAll             ] [DEBUG] ==> Parameters: 
+[2014/12/22 22:00:14] [selectAll             ] [DEBUG] <==      Total: 9
+[2014/12/22 22:00:14] [TestExecutor          ] [INFO ] num=5
+[2014/12/22 22:00:14] [TestExecutor          ] [INFO ] com.example.dto.Blog@367c218e[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@f7f0d94[id=1,title=blog1_text1,text=text1], com.example.dto.Post@5e54777e[id=2,title=blog1_text2,text=text2], com.example.dto.Post@7b712193[id=3,title=blog1_text3,text=text3]]]
+[2014/12/22 22:00:14] [TestExecutor          ] [INFO ] com.example.dto.Blog@40537935[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@283aa791[id=4,title=blog2_text1,text=text4], com.example.dto.Post@22cf3539[id=5,title=blog2_text2,text=text5], com.example.dto.Post@51af4309[id=6,title=blog2_text3,text=text6]]]
+[2014/12/22 22:00:14] [TestExecutor          ] [INFO ] com.example.dto.Blog@495a2dc4[id=3,title=blog3,author=author3,posts=[com.example.dto.Post@3f72c47b[id=7,title=blog3_text1,text=text7]]]
+[2014/12/22 22:00:14] [TestExecutor          ] [INFO ] com.example.dto.Blog@7c187c8[id=4,title=blog4,author=author4,posts=[com.example.dto.Post@32b95f72[id=8,title=blog4_text1,text=text8]]]
+[2014/12/22 22:00:14] [TestExecutor          ] [INFO ] com.example.dto.Blog@28294f62[id=5,title=blog5,author=author5,posts=[com.example.dto.Post@301abf87[id=9,title=blog5_text1,text=text9]]]
+[2014/12/22 22:00:14] [TestExecutor          ] [INFO ] elapsed time:[424] Average:424.0
+[2014/12/22 22:00:33] [TestExecutor          ] [INFO ] execute [MyBatis2]1n
+[2014/12/22 22:00:35] [TestExecutor          ] [INFO ] num=5
+[2014/12/22 22:00:35] [TestExecutor          ] [INFO ] com.example.dto.Blog@39757337[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@7b34c5ff[id=1,title=blog1_text1,text=text1], com.example.dto.Post@45b3278a[id=2,title=blog1_text2,text=text2], com.example.dto.Post@74e8f8c5[id=3,title=blog1_text3,text=text3]]]
+[2014/12/22 22:00:35] [TestExecutor          ] [INFO ] com.example.dto.Blog@6b248979[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@2bbd9de3[id=4,title=blog2_text1,text=text4], com.example.dto.Post@2dc8b884[id=5,title=blog2_text2,text=text5], com.example.dto.Post@54c9f997[id=6,title=blog2_text3,text=text6]]]
+[2014/12/22 22:00:35] [TestExecutor          ] [INFO ] com.example.dto.Blog@182153fe[id=3,title=blog3,author=author3,posts=[com.example.dto.Post@34115512[id=7,title=blog3_text1,text=text7]]]
+[2014/12/22 22:00:35] [TestExecutor          ] [INFO ] com.example.dto.Blog@5de82b72[id=4,title=blog4,author=author4,posts=[com.example.dto.Post@357c7988[id=8,title=blog4_text1,text=text8]]]
+[2014/12/22 22:00:35] [TestExecutor          ] [INFO ] com.example.dto.Blog@7f0eeb26[id=5,title=blog5,author=author5,posts=[com.example.dto.Post@2c704cf5[id=9,title=blog5_text1,text=text9]]]
+[2014/12/22 22:00:35] [TestExecutor          ] [INFO ] elapsed time:[1631] Average:1631.0
+[2014/12/22 22:00:35] [TestExecutor          ] [INFO ] execute [MyBatis3]1n
+[2014/12/22 22:00:35] [selectAll             ] [DEBUG] ==>  Preparing: SELECT b.id as id ,b.title as title ,b.author as author ,p.id as pid ,p.title as ptitle ,p.text as ptext FROM BLOG b LEFT OUTER JOIN POST p ON b.id = p.blog_id 
+[2014/12/22 22:00:35] [selectAll             ] [DEBUG] ==> Parameters: 
+[2014/12/22 22:00:35] [selectAll             ] [DEBUG] <==      Total: 9
+[2014/12/22 22:00:35] [TestExecutor          ] [INFO ] num=5
+[2014/12/22 22:00:35] [TestExecutor          ] [INFO ] com.example.dto.Blog@3f44b9ff[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@390f34cc[id=1,title=blog1_text1,text=text1], com.example.dto.Post@15535a58[id=2,title=blog1_text2,text=text2], com.example.dto.Post@13505258[id=3,title=blog1_text3,text=text3]]]
+[2014/12/22 22:00:35] [TestExecutor          ] [INFO ] com.example.dto.Blog@7e4e194f[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@395fd251[id=4,title=blog2_text1,text=text4], com.example.dto.Post@41e8e144[id=5,title=blog2_text2,text=text5], com.example.dto.Post@201d592a[id=6,title=blog2_text3,text=text6]]]
+[2014/12/22 22:00:35] [TestExecutor          ] [INFO ] com.example.dto.Blog@66c8e4de[id=3,title=blog3,author=author3,posts=[com.example.dto.Post@f29df8a[id=7,title=blog3_text1,text=text7]]]
+[2014/12/22 22:00:35] [TestExecutor          ] [INFO ] com.example.dto.Blog@612e4cd[id=4,title=blog4,author=author4,posts=[com.example.dto.Post@426b51d8[id=8,title=blog4_text1,text=text8]]]
+[2014/12/22 22:00:35] [TestExecutor          ] [INFO ] com.example.dto.Blog@13ca5df9[id=5,title=blog5,author=author5,posts=[com.example.dto.Post@4adf9095[id=9,title=blog5_text1,text=text9]]]
+[2014/12/22 22:00:35] [TestExecutor          ] [INFO ] elapsed time:[313] Average:313.0
+[2014/12/22 22:01:32] [TestExecutor          ] [INFO ] execute [MyBatis2]1n
+[2014/12/22 22:01:33] [TestExecutor          ] [INFO ] num=5
+[2014/12/22 22:01:34] [TestExecutor          ] [INFO ] com.example.dto.Blog@2377ff35[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@3ec19fbf[id=1,title=blog1_text1,text=text1], com.example.dto.Post@19ded4c9[id=2,title=blog1_text2,text=text2], com.example.dto.Post@7463e563[id=3,title=blog1_text3,text=text3]]]
+[2014/12/22 22:01:34] [TestExecutor          ] [INFO ] com.example.dto.Blog@4a690247[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@3414a97b[id=4,title=blog2_text1,text=text4], com.example.dto.Post@3882e4f3[id=5,title=blog2_text2,text=text5], com.example.dto.Post@19852a81[id=6,title=blog2_text3,text=text6]]]
+[2014/12/22 22:01:34] [TestExecutor          ] [INFO ] com.example.dto.Blog@75a9883d[id=3,title=blog3,author=author3,posts=[com.example.dto.Post@4d2f9924[id=7,title=blog3_text1,text=text7]]]
+[2014/12/22 22:01:34] [TestExecutor          ] [INFO ] com.example.dto.Blog@6fef3212[id=4,title=blog4,author=author4,posts=[com.example.dto.Post@40c07527[id=8,title=blog4_text1,text=text8]]]
+[2014/12/22 22:01:34] [TestExecutor          ] [INFO ] com.example.dto.Blog@1b4b74a7[id=5,title=blog5,author=author5,posts=[com.example.dto.Post@76d78df0[id=9,title=blog5_text1,text=text9]]]
+[2014/12/22 22:01:34] [TestExecutor          ] [INFO ] elapsed time:[1241] Average:1241.0
+[2014/12/22 22:01:34] [TestExecutor          ] [INFO ] execute [MyBatis3]1n
+[2014/12/22 22:01:34] [selectAll             ] [DEBUG] ==>  Preparing: SELECT b.id as id ,b.title as title ,b.author as author ,p.id as pid ,p.title as ptitle ,p.text as ptext FROM BLOG b LEFT OUTER JOIN POST p ON b.id = p.blog_id 
+[2014/12/22 22:01:34] [selectAll             ] [DEBUG] ==> Parameters: 
+[2014/12/22 22:01:34] [selectAll             ] [DEBUG] <==      Total: 9
+[2014/12/22 22:01:34] [TestExecutor          ] [INFO ] num=5
+[2014/12/22 22:01:34] [TestExecutor          ] [INFO ] com.example.dto.Blog@411b1d80[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@5b2ddfe4[id=1,title=blog1_text1,text=text1], com.example.dto.Post@20c62080[id=2,title=blog1_text2,text=text2], com.example.dto.Post@2f7fc44f[id=3,title=blog1_text3,text=text3]]]
+[2014/12/22 22:01:34] [TestExecutor          ] [INFO ] com.example.dto.Blog@6d3136e5[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@3a0b2c64[id=4,title=blog2_text1,text=text4], com.example.dto.Post@338f7701[id=5,title=blog2_text2,text=text5], com.example.dto.Post@fcdfd19[id=6,title=blog2_text3,text=text6]]]
+[2014/12/22 22:01:34] [TestExecutor          ] [INFO ] com.example.dto.Blog@1ca37c6a[id=3,title=blog3,author=author3,posts=[com.example.dto.Post@313d21d6[id=7,title=blog3_text1,text=text7]]]
+[2014/12/22 22:01:34] [TestExecutor          ] [INFO ] com.example.dto.Blog@247881db[id=4,title=blog4,author=author4,posts=[com.example.dto.Post@63956391[id=8,title=blog4_text1,text=text8]]]
+[2014/12/22 22:01:34] [TestExecutor          ] [INFO ] com.example.dto.Blog@64bbf7aa[id=5,title=blog5,author=author5,posts=[com.example.dto.Post@7080ed90[id=9,title=blog5_text1,text=text9]]]
+[2014/12/22 22:01:34] [TestExecutor          ] [INFO ] elapsed time:[235] Average:235.0
+[2014/12/22 22:01:50] [TestExecutor          ] [INFO ] execute [MyBatis2]1n
+[2014/12/22 22:01:51] [TestExecutor          ] [INFO ] num=5
+[2014/12/22 22:01:51] [TestExecutor          ] [INFO ] com.example.dto.Blog@6fef3212[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@1b4b74a7[id=1,title=blog1_text1,text=text1], com.example.dto.Post@76d78df0[id=2,title=blog1_text2,text=text2], com.example.dto.Post@41a7c484[id=3,title=blog1_text3,text=text3]]]
+[2014/12/22 22:01:51] [TestExecutor          ] [INFO ] com.example.dto.Blog@6d56d7c8[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@6070c38c[id=4,title=blog2_text1,text=text4], com.example.dto.Post@b364dcb[id=5,title=blog2_text2,text=text5], com.example.dto.Post@1a2d502d[id=6,title=blog2_text3,text=text6]]]
+[2014/12/22 22:01:51] [TestExecutor          ] [INFO ] com.example.dto.Blog@14eac7c8[id=3,title=blog3,author=author3,posts=[com.example.dto.Post@41e22632[id=7,title=blog3_text1,text=text7]]]
+[2014/12/22 22:01:51] [TestExecutor          ] [INFO ] com.example.dto.Blog@6639be68[id=4,title=blog4,author=author4,posts=[com.example.dto.Post@5903d246[id=8,title=blog4_text1,text=text8]]]
+[2014/12/22 22:01:51] [TestExecutor          ] [INFO ] com.example.dto.Blog@9e21f52[id=5,title=blog5,author=author5,posts=[com.example.dto.Post@5c76458f[id=9,title=blog5_text1,text=text9]]]
+[2014/12/22 22:01:51] [TestExecutor          ] [INFO ] elapsed time:[1223] Average:1223.0
+[2014/12/22 22:01:51] [TestExecutor          ] [INFO ] execute [MyBatis3]1n
+[2014/12/22 22:01:52] [selectAll             ] [DEBUG] ==>  Preparing: SELECT b.id as id ,b.title as title ,b.author as author ,p.id as pid ,p.title as ptitle ,p.text as ptext FROM BLOG b LEFT OUTER JOIN POST p ON b.id = p.blog_id 
+[2014/12/22 22:01:52] [selectAll             ] [DEBUG] ==> Parameters: 
+[2014/12/22 22:01:52] [selectAll             ] [DEBUG] <==      Total: 9
+[2014/12/22 22:01:52] [TestExecutor          ] [INFO ] num=5
+[2014/12/22 22:01:52] [TestExecutor          ] [INFO ] com.example.dto.Blog@63956391[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@64bbf7aa[id=1,title=blog1_text1,text=text1], com.example.dto.Post@7080ed90[id=2,title=blog1_text2,text=text2], com.example.dto.Post@206cc2a4[id=3,title=blog1_text3,text=text3]]]
+[2014/12/22 22:01:52] [TestExecutor          ] [INFO ] com.example.dto.Blog@445ead9d[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@23d8417c[id=4,title=blog2_text1,text=text4], com.example.dto.Post@4ab34646[id=5,title=blog2_text2,text=text5], com.example.dto.Post@3fcac3fa[id=6,title=blog2_text3,text=text6]]]
+[2014/12/22 22:01:52] [TestExecutor          ] [INFO ] com.example.dto.Blog@190872ce[id=3,title=blog3,author=author3,posts=[com.example.dto.Post@79a93f38[id=7,title=blog3_text1,text=text7]]]
+[2014/12/22 22:01:52] [TestExecutor          ] [INFO ] com.example.dto.Blog@5675b3ee[id=4,title=blog4,author=author4,posts=[com.example.dto.Post@4977fa9a[id=8,title=blog4_text1,text=text8]]]
+[2014/12/22 22:01:52] [TestExecutor          ] [INFO ] com.example.dto.Blog@63e5ba24[id=5,title=blog5,author=author5,posts=[com.example.dto.Post@7f1fc4b8[id=9,title=blog5_text1,text=text9]]]
+[2014/12/22 22:01:52] [TestExecutor          ] [INFO ] elapsed time:[229] Average:229.0
+[2014/12/22 23:51:49] [TestExecutor          ] [INFO ] execute [MyBatis2]1n
+[2014/12/22 23:51:51] [TestExecutor          ] [INFO ] num=5
+[2014/12/22 23:51:51] [TestExecutor          ] [INFO ] com.example.dto.Blog@13505258[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@395fd251[id=1,title=blog1_text1,text=text1], com.example.dto.Post@41e8e144[id=2,title=blog1_text2,text=text2], com.example.dto.Post@201d592a[id=3,title=blog1_text3,text=text3]]]
+[2014/12/22 23:51:51] [TestExecutor          ] [INFO ] com.example.dto.Blog@66c8e4de[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@f29df8a[id=4,title=blog2_text1,text=text4], com.example.dto.Post@612e4cd[id=5,title=blog2_text2,text=text5], com.example.dto.Post@426b51d8[id=6,title=blog2_text3,text=text6]]]
+[2014/12/22 23:51:51] [TestExecutor          ] [INFO ] com.example.dto.Blog@13ca5df9[id=3,title=blog3,author=author3,posts=[com.example.dto.Post@4adf9095[id=7,title=blog3_text1,text=text7]]]
+[2014/12/22 23:51:51] [TestExecutor          ] [INFO ] com.example.dto.Blog@1b8d4c9a[id=4,title=blog4,author=author4,posts=[com.example.dto.Post@59a02097[id=8,title=blog4_text1,text=text8]]]
+[2014/12/22 23:51:51] [TestExecutor          ] [INFO ] com.example.dto.Blog@1fbbc779[id=5,title=blog5,author=author5,posts=[com.example.dto.Post@6124e935[id=9,title=blog5_text1,text=text9]]]
+[2014/12/22 23:51:51] [TestExecutor          ] [INFO ] elapsed time:[2059] Average:2059.0
+[2014/12/22 23:51:51] [TestExecutor          ] [INFO ] execute [MyBatis3]1n
+[2014/12/22 23:51:52] [selectAll             ] [DEBUG] ==>  Preparing: SELECT b.id as id ,b.title as title ,b.author as author ,p.id as pid ,p.title as ptitle ,p.text as ptext FROM BLOG b LEFT OUTER JOIN POST p ON b.id = p.blog_id 
+[2014/12/22 23:51:52] [selectAll             ] [DEBUG] ==> Parameters: 
+[2014/12/22 23:51:52] [selectAll             ] [DEBUG] <==      Total: 9
+[2014/12/22 23:51:52] [TestExecutor          ] [INFO ] num=5
+[2014/12/22 23:51:52] [TestExecutor          ] [INFO ] com.example.dto.Blog@4453d3cf[id=1,title=blog1,author=author1,posts=[com.example.dto.Post@5b76de14[id=1,title=blog1_text1,text=text1], com.example.dto.Post@58ee21f5[id=2,title=blog1_text2,text=text2], com.example.dto.Post@79f7896f[id=3,title=blog1_text3,text=text3]]]
+[2014/12/22 23:51:52] [TestExecutor          ] [INFO ] com.example.dto.Blog@6a6014f7[id=2,title=blog2,author=author2,posts=[com.example.dto.Post@4a009ab0[id=4,title=blog2_text1,text=text4], com.example.dto.Post@6dabbec4[id=5,title=blog2_text2,text=text5], com.example.dto.Post@26796e1c[id=6,title=blog2_text3,text=text6]]]
+[2014/12/22 23:51:52] [TestExecutor          ] [INFO ] com.example.dto.Blog@6e2c03ff[id=3,title=blog3,author=author3,posts=[com.example.dto.Post@bba92db[id=7,title=blog3_text1,text=text7]]]
+[2014/12/22 23:51:52] [TestExecutor          ] [INFO ] com.example.dto.Blog@5ff6de1[id=4,title=blog4,author=author4,posts=[com.example.dto.Post@4486d1da[id=8,title=blog4_text1,text=text8]]]
+[2014/12/22 23:51:52] [TestExecutor          ] [INFO ] com.example.dto.Blog@6f3b625b[id=5,title=blog5,author=author5,posts=[com.example.dto.Post@23b67d6a[id=9,title=blog5_text1,text=text9]]]
+[2014/12/22 23:51:52] [TestExecutor          ] [INFO ] elapsed time:[486] Average:486.0

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap
+            PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN"
+            "http://ibatis.apache.org/dtd/sql-map-2.dtd"> <!-- (1) -->
+
+<sqlMap namespace="mybatis"> <!-- (2) -->
+	<resultMap class="com.example.dto.Blog" id="blogMap" groupBy="id">
+		<result property="id" column="id" javaType="int" />
+		<result property="title" column="title" javaType="java.lang.String" />
+		<result property="author" column="author" javaType="java.lang.String" />
+		<result property="posts" resultMap="mybatis.postMap"/>
+	</resultMap>
+
+	<resultMap class="com.example.dto.Post" id="postMap">
+		<result property="id" column="pid" javaType="int"/>
+		<result property="title" column="ptitle" javaType="java.lang.String" />
+		<result property="text" column="ptext" javaType="java.lang.String" />	
+	</resultMap>
+
+	<select id="selectAll" resultMap="blogMap">
+	<!-- 
+		SELECT * FROM BLOG
+    -->
+    SELECT
+     b.id as id
+     ,b.title as title
+     ,b.author as author
+     ,p.id as pid
+     ,p.title as ptitle
+     ,p.text as ptext
+    FROM
+     BLOG b LEFT OUTER JOIN POST p ON b.id = p.blog_id
+
+	</select>
+	
+	<select id="getPost" resultMap="postMap">
+		SELECT * FROM POST WHERE BLOG_ID=#id#
+	</select>
+	
+</sqlMap>
